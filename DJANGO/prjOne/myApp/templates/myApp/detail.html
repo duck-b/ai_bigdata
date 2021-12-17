@@ -1,0 +1,12 @@
+{% extends 'myApp/base_student.html' %}
+{% block content%}
+<h1>아이디 : {{student.id}}</h1>
+<hr>
+<div class="list-group">
+    <div class="list-group-item">이름 : {{student.s_name}}</div>
+    <div class="list-group-item">학과 : {{student.s_major}}</div>
+    <div class="list-group-item">나이 : {{student.s_age}}</div>
+    <div class="list-group-item">학점 : {{student.s_grade}}</div>
+    <div class="list-group-item">성별 : {{student.s_gender}}</div>
+</div>
+{% endblock %}

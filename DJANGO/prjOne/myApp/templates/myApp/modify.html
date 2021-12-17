@@ -1,0 +1,40 @@
+{% extends 'myApp/base_student.html' %}
+{% block content%}
+<h1>학생 수정</h1>
+<hr>
+<form action="/myApp/modifyCon/" method="post" style="width: 50%; margin:10px auto">
+    {% csrf_token %}
+    <div class="form-group">
+        <input type="text" name="name" class="form-control" required placeholder="이름" value="{{ student.s_name }}">
+    </div>
+    <div class="form-group">
+        <input type="text" name="major" class="form-control" required placeholder="학과" value="{{ student.s_major }}">
+    </div>
+    <div class="form-group">
+        <input type="number" name="age" class="form-control" required placeholder="나이" value="{{ student.s_age }}">
+    </div>
+    <div class="form-group">
+        <input type="number" name="grade" class="form-control" required placeholder="점수" value="{{ student.s_grade }}">
+    </div>
+    <div class="form-group">
+        <b>성별</b>
+        {% if student.s_gender == '남' %}
+        <input type="radio" name="gender" id="male" value="남" checked>
+        <label for="male">남자</label>
+        <input type="radio" name="gender" id="female" value="여">
+        <label for="female">여자</label>
+        {% else %}
+        <input type="radio" name="gender" id="male" value="남">
+        <label for="male">남자</label>
+        <input type="radio" name="gender" id="female" value="여" checked>
+        <label for="female">여자</label>
+        {% endif %}
+    </div>
+    <div class="form-group">
+        <input type="hidden" value="{{ student.id }}" name="id">
+        <input type="submit" value="수정" class="btn btn-success">
+        <input type="reset" value="취소" class="btn btn-info">
+        <a href="/myApp/all/" class="btn btn-primary">메인</a>
+    </div>
+</form>
+{% endblock %}

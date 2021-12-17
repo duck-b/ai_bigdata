@@ -1,0 +1,17 @@
+{% extends 'myApp/base.html' %}
+{% block content %}
+<div class="col-xs-12 col-sm-11 col-md-7 col-lg-5 login_box">
+    <div class="login_title">
+        <div>My Webtoon Diary</div>
+        <p>Login</p>
+    </div>
+    <div class="login_form">
+        <form action="/loginCon/" method="post">
+            {% csrf_token %}
+            <input type="email" name='email' placeholder="이메일을 입력해주세요." class="form-control" required>
+            <br>
+            <input type="submit" value="로그인" class="btn btn-primary">
+        </form>
+    </div>
+</div>
+{% endblock %}

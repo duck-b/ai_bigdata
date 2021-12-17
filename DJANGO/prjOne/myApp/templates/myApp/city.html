@@ -1,0 +1,27 @@
+{% extends 'myApp/base_city.html' %}
+{% block content%}
+<h1>도시 전체 목록</h1>
+<hr>
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>POPULATION</th>
+            <th>MODIFY</th>
+            <th>DELETE</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for city in city_list %}
+        <tr>
+            <td>{{ city.id }}</td>
+            <td>{{ city.name }}</td>
+            <td>{{ city.population }}</td>
+            <td><a href="#" class="btn btn-info">수정</a></td>
+            <td><a href="#" class="btn btn-success">삭제</a></td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

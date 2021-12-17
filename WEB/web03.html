@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 배우기 3</title>
+</head>
+<body>
+    <h1>HTML 배우기 3</h1>
+    <hr />
+    <form action="">
+        <h2>텍스트 필드</h2>
+        <label for="input1">제목</label>
+        <input type="text" id="input1"/>
+        <hr />
+        <label for="pwd">암호</label>
+        <input type="password" id="pwd">
+        <hr />
+        <h2>라디오버튼과 체크박스</h2>
+        <label for="male">남자</label>
+        <input type="radio" name="gender" id="male" checked>
+        <label for="femal">여자</label>
+        <input type="radio" name="gender" id="female">
+        <hr />
+        <label for="emailcheck">메일 수신</label>
+        <input type="checkbox" id="emailcheck" checked>
+        <h2>Email</h2>
+        <label for="userEmail">이메일</label>
+        <input type="email" id="userEmail">
+        <hr />
+        <h2>Select</h2>
+        <label for="userJob">직업</label>
+        <select id="userJob">
+            <option>-----선택하세요-----</option>
+            <option value="">학생</option>
+            <option value="">자영업</option>
+            <option value="">공무원</option>
+            <option value="">기타</option>
+        </select>
+        <hr />
+        <h2>여러줄 글상자</h2>
+        <label for="message">메세지 입력</label><br />
+        <textarea id="message" cols="30" rows="10">입력하세요.</textarea>
+        <hr />
+        <h2>필드셋과 레전드</h2>
+        <fieldset>
+            <legend>취미</legend>
+            <input type="checkbox" id="hobby1">
+            <label for="hobby1">등산</label>
+            <input type="checkbox" id="hobby2">
+            <label for="hobby2">게임</label>
+            <input type="checkbox" id="hobby3">
+            <label for="hobby3">사진</label>
+        </fieldset>
+        <hr />
+        <h2>time과 date</h2>
+        <label for="userDate">예약날짜</label>
+        <input type="date" id="userDate">
+        <label for="userTime">예약시간</label>
+        <input type="time" id="userTime">
+        <hr />
+        <h2>폼 버튼</h2>
+        <button>전송1</button>
+        <input type="submit" value="전송2">
+        <input type="reset" value="취소">
+    </form>
+</body>
+</html>

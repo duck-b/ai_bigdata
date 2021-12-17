@@ -1,0 +1,31 @@
+{% extends 'myApp/base_student.html' %}
+{% block content%}
+<h1>학생 추가</h1>
+<hr>
+<form action="/myApp/registerCon/" method="post" style="width: 50%; margin:10px auto">
+    {% csrf_token %}
+    <div class="form-group">
+        <input type="text" name="name" class="form-control" required placeholder="이름">
+    </div>
+    <div class="form-group">
+        <input type="text" name="major" class="form-control" required placeholder="학과">
+    </div>
+    <div class="form-group">
+        <input type="number" name="age" class="form-control" required placeholder="나이">
+    </div>
+    <div class="form-group">
+        <input type="number" name="grade" class="form-control" required placeholder="점수">
+    </div>
+    <div class="form-group">
+        <b>성별</b>
+        <input type="radio" name="gender" id="male" value="남">
+        <label for="male">남자</label>
+        <input type="radio" name="gender" id="female" value="여">
+        <label for="female">여자</label>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="등록" class="btn btn-success">
+        <input type="reset" value="취소" class="btn btn-info">
+    </div>
+</form>
+{% endblock %}

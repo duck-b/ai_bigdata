@@ -1,0 +1,49 @@
+{% extends 'myApp/base.html' %}
+{% block content %}
+<div class="col-xs-12 col-sm-11 col-md-7 col-lg-5 main_box">
+    <nav class="main_nav">
+        <div class="nav_search">
+            <a href="/user/">
+                <img src="/static/myApp/images/arrow-left-solid.svg" width="20px"/>
+            </a>
+            <span class="webtoon_title">참교육</span>
+            <div class="nav_icon">
+                <a href="/user/search/{{webtoonid}}/deleteCon/" onClick='window.history.back()'>
+                    <img src="/static/myApp/images/trash-alt-regular.svg" class="icon_delete" />
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="row content webtoon_detail">
+        <div class="webtoon_detail_img col-4">
+            <div style="background-image: url('https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg');"></div>
+        </div>
+        <div class="webtoon_detail_info col-8">
+            <p class="title"><!--<span class="age_all">ⓐ</span> <span class="age_12">⑫</span>--> <span class="age_15">⑮</span> <!--<span class="age_18">⑱</span>--> 참교육</p>
+            <p class="writer">채용택 / 한가람</p>
+            <p class="etc">스토리, 액션</p>
+            <p class="etc">네이버 · 월요웹툰</p>
+        </div>
+        <div class="webtoon_detail_description col-12">
+            <p>&nbsp;무너진 교권을 지키기 위해 교권보호국 소속 나화진의 참교육이 시작된다!<부활남> 채용택 작가 X <신석기녀> 한가람 작가의 신작!</p>
+        </div>
+
+        <div class="webtoon_detail_link col-12">
+            <a href="https://comic.naver.com/webtoon/list?titleId=758037&weekday=mon" target="_blank" class="btn btn-outline-primary">바로가기</a>
+        </div>
+    </div>
+    <div class="row content wetoon_comment">
+        <div class="col-6 title">
+            참교육 감상평
+        </div>
+        <div class="col-6 buttons">
+            <a href="/user/webtoon/{{webtoonid}}/create/" class="btn btn-sm btn-outline-success">등록</a>
+            <a href="/user/webtoon/{{webtoonid}}/update/" class="btn btn-sm btn-outline-warning">수정</a>
+            <a href="/user/webtoon/{{webtoonid}}/deleteCon/" class="btn btn-sm btn-outline-danger">삭제</a>
+        </div>
+        <div class="col-12 wetoon_commnet_content">
+            등록된 감상평이 없습니다.
+        </div>
+    </div>
+</div>
+{% endblock %}

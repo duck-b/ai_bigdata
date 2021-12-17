@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 부트스트랩 CDN -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .container { border: solid 1px lightgray; margin-top: 50px; padding: 10px;}
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h1>Sub5</h1>
+        <hr>
+        <h2>템플릿 if 제어문</h2>
+        <h3>book_list</h3>
+        {% if book_list %}
+            <p>{{book_list}}</p>
+        {% else %}
+            <p>책이 없습니다.</p>
+        {% endif %}
+        <hr>
+        <h3>for 문 + if 문</h3>
+        {% for title, price in book_list%}
+            <p>제목: {{title}}, 가격: {{price}}</p>
+        {% endfor%}
+        <hr>
+        {% for title, price in book_list%}
+            {% if title == "JAVA" %}
+            <p>제목: {{title}}, 가격: {{price}}</p>
+            {% else %}
+            <p> ... </p>
+            {% endif %}
+        {% endfor%}
+    </div>
+</body>
+</html>

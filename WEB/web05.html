@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 배우기</title>
+</head>
+<body>
+    <h2>iframe</h2>
+    <div>
+        <ul>
+            <li><a href="web01.html" target="box">we01.html</a></li>
+            <li><a href="web02.html" target="box">we02.html</a></li>
+            <li><a href="web03.html" target="box">we03.html</a></li>
+            <li><a href="images/fitdata_logo_192.png" target="box">fitdata_logo_192.png</a></li>
+        </ul>
+        <hr />
+        <iframe src="web01.html" frameborder="1" width="500" height="500" name="box"></iframe>
+    </div>
+    <hr />
+    <!-- Emmet Coding -->
+    <!-- + 다음 요소
+    * 반복
+    > 하위 요소
+    $ 자동 숫자 증감
+    {} 내용입력
+    () 그룹핑
+    [] 속성 -->
+    <!-- h1+hr+h2 -->
+    <h1></h1>
+    <hr>
+    <h2></h2>
+    <!-- h1{제목1}+hr+h2{제목2} -->
+    <h1>제목1</h1>
+    <hr>
+    <h2>제목2</h2>
+    <!-- ul>li{목록$}*5 -->
+    <ul>
+        <li>목록1</li>
+        <li>목록2</li>
+        <li>목록3</li>
+        <li>목록4</li>
+        <li>목록5</li>
+    </ul>
+    <hr />
+    <!-- table>(tr>td{데이터$}*3)*3 -->
+    <table>
+        <tr>
+            <td>데이터1</td>
+            <td>데이터2</td>
+            <td>데이터3</td>
+        </tr>
+        <tr>
+            <td>데이터1</td>
+            <td>데이터2</td>
+            <td>데이터3</td>
+        </tr>
+        <tr>
+            <td>데이터1</td>
+            <td>데이터2</td>
+            <td>데이터3</td>
+        </tr>
+    </table>
+    <!-- table[border=1 align=center]>(tr>td{데이터}*2)*2 -->
+    <table border="1" align="center">
+        <tr>
+            <td>데이터</td>
+            <td>데이터</td>
+        </tr>
+        <tr>
+            <td>데이터</td>
+            <td>데이터</td>
+        </tr>
+    </table>
+    <!-- form>(div>(label{제목$}+input:password)) -->
+    <form action="">
+        <div><label for="">제목1</label><input type="password" name="" id=""></div>
+    </form>
+</body>
+</html>

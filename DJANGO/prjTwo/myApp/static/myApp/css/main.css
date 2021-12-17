@@ -1,0 +1,132 @@
+.btn-outline-light {color: #515151;}
+
+body {
+    background-color: #fafafa !important;
+    width: 100%;
+}
+a:hover {
+    text-decoration: none;
+}
+.main_box {
+    background-color: rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 3px 14px rgb(0 0 0 / 12%), 0px 5px 5px rgb(0 0 0 / 20%);
+    min-height: 100vh;
+    padding: 0px;
+}
+
+.main_nav {
+    top: 0;
+    height: 7vh;
+    line-height: 7vh;
+    width: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.nav_logo {
+    padding-left: 10px;
+    font-size: 22px;
+    float: left;
+}
+.nav_icon {
+    float: right;
+    padding-right: 15px;
+}
+
+.icon_search{ margin-right: 10px; width: 24px; }
+.icon_logout { width: 24px; }
+.icon_delete { width: 24px; }
+.nav_search { padding-left: 10px; }
+.nav_search > form { width: 90%; float: right; }
+.search_form { width: 75%; display: inline-block;}
+.search_btn { width: 20%; display: inline-block; margin-bottom: 2px;}
+.content {
+    background-color: #FFFFFF;  
+    width: 100%;  
+    margin: 0px;
+}
+.btn_weekday > button { border-radius: 0px; font-size: 16px;white-space:nowrap;}
+.webtoon_content { padding: 0px; }
+.webtoon_img {
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+    padding-bottom: 100%;
+}
+.webtoon_info { padding: 5px; border: 1px solid rgba(0, 0, 0, 0.06); border-top: 0px;}
+.webtoon_info > p { color: #000; margin-bottom: 0px; font-size: 16px;}
+.webtoon_info > span { color: #515151; display: block; font-size: 14px;}
+
+.webtoon_search {
+    padding: 0px;   
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.webtoon_search_img {padding: 0px;}
+.webtoon_search_img > div { 
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+    padding-bottom: 100%;
+}
+.webtoon_search_info { padding: 10px 5px; }
+.webtoon_search_info > p { margin: 0px;}
+.webtoon_search_info > span { color: #515151; font-size: 14px;}
+.webtoon_search_save {padding: 0px; text-align: center;}
+.webtoon_search_save > button {white-space:nowrap; margin-top: 15px;}
+
+.main_footer {
+    padding: 20px;
+    color: #515151;
+    font-size: 14px;
+}
+
+.login_box {
+    background: rgba(0, 0, 0, 0.48) url('../images/login_background.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: none;
+    background-blend-mode: multiply;
+    box-shadow: 0px 3px 14px rgb(0 0 0 / 12%), 0px 5px 5px rgb(0 0 0 / 20%);
+    min-height: 100vh;
+    padding: 0px;
+}
+.login_title {
+    margin-top: 28vh;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+}
+.login_title > p {
+    font-size: 20px;
+}
+.login_form > form {text-align: center;}
+.login_form input { width: 70%; margin: auto;}
+
+.webtoon_title { padding-left: 10px; font-size: 19px; }
+
+.webtoon_detail { padding: 20px 0px; }
+.webtoon_detail_img > div { 
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+    padding-bottom: 100%;
+}
+
+.webtoon_detail_link > a { width: 100%;}
+.webtoon_detail_info { padding: 0px;}
+.webtoon_detail_info > p { margin: 0px;}
+.webtoon_detail_info > .title { font-weight: bold; font-size: 20px;}
+.webtoon_detail_info > .writer { font-size: 16px;}
+.webtoon_detail_info > .etc { font-size: 14px; color: #515151;}
+.webtoon_detail_info > .title > .age_all { color: blue; }
+.webtoon_detail_info > .title > .age_12 { color: green; }
+.webtoon_detail_info > .title > .age_15 { color: gold; }
+.webtoon_detail_info > .title > .age_18 { color: red; }
+.webtoon_detail_description > p { border-top: 1px solid rgba(0, 0, 0, 0.12); margin-top: 10px; padding-top: 5px;}
+
+.wetoon_comment {margin-top: 10px; padding: 20px 0px;}
+.wetoon_comment > .title {font-size: 18px; font-weight: bold;}
+.wetoon_comment > .buttons { text-align: right;}
+.wetoon_commnet_content { font-size: 16px; line-height: 16px; color: #515151; border-top: 1px solid rgba(0, 0, 0, 0.12); margin-top: 10px; padding-top: 15px;}
+.wetoon_commnet_form textarea {margin-top: 10px; resize: none;}
+.wetoon_commnet_form input {margin-top: 10px; width: 100%;}

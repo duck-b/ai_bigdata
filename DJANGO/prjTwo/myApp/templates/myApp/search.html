@@ -1,0 +1,76 @@
+{% extends 'myApp/base.html' %}
+{% block content %}
+<div class="col-xs-12 col-sm-11 col-md-7 col-lg-5 main_box">
+    <nav class="main_nav">
+        <div class="nav_search">
+            <a href="/user/">
+                <img src="/static/myApp/images/arrow-left-solid.svg" width="20px"/>
+            </a>
+            <form action="/user/search/" method="get">
+                <input type="text" placeholder="작품명 또는 작가로 검색" class="form-control search_form" name='search' value="{{search}}">
+                <input type="submit" value="검색" class="btn btn-outline-primary search_btn">
+            </form>
+        </div>
+    </nav>
+    <div class="row content webtoon_search">
+        <div class="webtoon_search_img col-2">
+            <div style="background-image: url('https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg');"></div>
+        </div>
+        <div class="webtoon_search_info col-7">
+            <p>참교육</p>
+            <span>채용택 / 한가람 · 네이버</span>
+        </div>
+        <div class="webtoon_search_save col-3">
+            <button type="button" class="btn btn-outline-warning" onClick="window.location.href='/user/search/1/createCon/'">저장</button>
+        </div>
+    </div>
+    <div class="row content webtoon_search">
+        <div class="webtoon_search_img col-2">
+            <div style="background-image: url('https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/thumbnail_IMAG10_9a752bec-9ebd-4214-9449-28cf4defc650.jpg');"></div>
+        </div>
+        <div class="webtoon_search_info col-7">
+            <p>신의 탑</p>
+            <span>SIU · 네이버</span>
+        </div>
+        <div class="webtoon_search_save col-3">
+            <button type="button" class="btn btn-outline-warning">저장</button>
+        </div>
+    </div>
+    <div class="row content webtoon_search">
+        <div class="webtoon_search_img col-2">
+            <div style="background-image: url('https://shared-comic.pstatic.net/thumb/webtoon/648419/thumbnail/thumbnail_IMAG10_1421195d-13be-4cde-bcf9-0c78d51c5ea3.jpg');"></div>
+        </div>
+        <div class="webtoon_search_info col-7">
+            <p>뷰티풀 군바리</p>
+            <span>설이 / 윤성원 · 네이버</span>
+        </div>
+        <div class="webtoon_search_save col-3">
+            <button type="button" class="btn btn-outline-warning">저장</button>
+        </div>
+    </div>
+    <div class="row content webtoon_search">
+        <div class="webtoon_search_img col-2">
+            <div style="background-image: url('https://shared-comic.pstatic.net/thumb/webtoon/654774/thumbnail/thumbnail_IMAG10_c966c4af-f642-4531-b39b-74c284034d9e.jpg');"></div>
+        </div>
+        <div class="webtoon_search_info col-7">
+            <p>소녀의 세계</p>
+            <span>모랑지 · 네이버</span>
+        </div>
+        <div class="webtoon_search_save col-3">
+            <button type="button" class="btn btn-outline-warning">저장</button>
+        </div>
+    </div>
+    <div class="row content webtoon_search">
+        <div class="webtoon_search_img col-2">
+            <div style="background-image: url('https://shared-comic.pstatic.net/thumb/webtoon/774863/thumbnail/thumbnail_IMAG10_bcaea87e-33e2-4a5f-90d7-bf6bc8998e34.jpg');"></div>
+        </div>
+        <div class="webtoon_search_info col-7">
+            <p>팔이피플</p>
+            <span>매미 / 희세 · 네이버</span>
+        </div>
+        <div class="webtoon_search_save col-3">
+            <button type="button" class="btn btn-outline-warning">저장</button>
+        </div>
+    </div>
+</div>
+{% endblock %}

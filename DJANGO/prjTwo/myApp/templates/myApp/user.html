@@ -1,0 +1,119 @@
+{% extends 'myApp/base.html' %}
+{% block content %}
+<div class="col-xs-12 col-sm-11 col-md-7 col-lg-5 main_box">
+    <nav class="main_nav">
+        <div class="nav_logo">
+            {{ memberemail }}
+        </div>
+        <div class="nav_icon">
+            <a href="/user/search/">
+                <img src="/static/myApp/images/search-solid.svg" class="icon_search" />
+            </a>
+            <a href="/login/">
+                <img src="/static/myApp/images/sign-out-alt-solid.svg" class="icon_logout" />
+            </a>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="btn-group btn_weekday" role="group" aria-label="Basic outlined example">
+            {% if week == None %}
+            <button type="button" class="btn btn-sm btn-primary">전체</button>
+            {% else %}
+            <button type="button" class="btn btn-sm btn-outline-light" onClick="window.location.replace('/user/')">전체</button>
+            {% endif %}
+            {% if week == 'mon' %}
+            <button type="button" class="btn btn-sm btn-primary">월</button>
+            {% else %}
+            <button type="button" class="btn btn-sm btn-outline-light" onClick="window.location.replace('/user/mon/')">월</button>
+            {% endif %}
+            {% if week == 'tue' %}
+            <button type="button" class="btn btn-sm btn-primary">화</button>
+            {% else %}
+            <button type="button" class="btn btn-sm btn-outline-light" onClick="window.location.replace('/user/tue/')">화</button>
+            {% endif %}
+            {% if week == 'wed' %}
+            <button type="button" class="btn btn-sm btn-primary">수</button>
+            {% else %}
+            <button type="button" class="btn btn-sm btn-outline-light" onClick="window.location.replace('/user/wed/')">수</button>
+            {% endif %}
+            {% if week == 'thu' %}
+            <button type="button" class="btn btn-sm btn-primary">목</button>
+            {% else %}
+            <button type="button" class="btn btn-sm btn-outline-light" onClick="window.location.replace('/user/thu/')">목</button>
+            {% endif %}
+            {% if week == 'fri' %}
+            <button type="button" class="btn btn-sm btn-primary">금</button>
+            {% else %}
+            <button type="button" class="btn btn-sm btn-outline-light" onClick="window.location.replace('/user/fri/')">금</button>
+            {% endif %}
+            {% if week == 'sat' %}
+            <button type="button" class="btn btn-sm btn-primary">토</button>
+            {% else %}
+            <button type="button" class="btn btn-sm btn-outline-light" onClick="window.location.replace('/user/sat/')">토</button>
+            {% endif %}
+            {% if week == 'sun' %}
+            <button type="button" class="btn btn-sm btn-primary">일</button>
+            {% else %}
+            <button type="button" class="btn btn-sm btn-outline-light" onClick="window.location.replace('/user/sun/')">일</button>
+            {% endif %}
+            {% if week == 'end' %}
+            <button type="button" class="btn btn-sm btn-primary">완결</button>
+            {% else %}
+            <button type="button" class="btn btn-sm btn-outline-light" onClick="window.location.replace('/user/end/')">완결</button>
+            {% endif %}
+        </div>
+    </div>
+    <div class="row content">
+        <div class="webtoon_content col-4">
+            <a href="/user/webtoon/1/">
+                <div class="webtoon_img" style="background-image: url('https://shared-comic.pstatic.net/thumb/webtoon/758037/thumbnail/thumbnail_IMAG10_a2297504-4912-4c7e-a5a8-524d6fc77103.jpg');"></div>
+                <div class="webtoon_info">
+                    <p>참교육</p>
+                    <span>채용택 / 한가람</span>
+                    <span>네이버</span>
+                </div>
+            </a>
+        </div>
+        <div class="webtoon_content col-4">
+            <a href="javascript:;">
+                <div class="webtoon_img" style="background-image: url('https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/thumbnail_IMAG10_9a752bec-9ebd-4214-9449-28cf4defc650.jpg');"></div>
+                <div class="webtoon_info">
+                    <p>신의 탑</p>
+                    <span>SIU</span>
+                    <span>네이버</span>
+                </div>
+            </a>
+        </div>
+        <div class="webtoon_content col-4">
+            <a href="javascript:;">
+                <div class="webtoon_img" style="background-image: url('https://shared-comic.pstatic.net/thumb/webtoon/648419/thumbnail/thumbnail_IMAG10_1421195d-13be-4cde-bcf9-0c78d51c5ea3.jpg');"></div>
+                <div class="webtoon_info">
+                    <p>뷰티풀 군바리</p>
+                    <span>설이 / 윤성원</span>
+                    <span>네이버</span>
+                </div>
+            </a>
+        </div>
+        <div class="webtoon_content col-4">
+            <a href="javascript:;">
+                <div class="webtoon_img" style="background-image: url('https://shared-comic.pstatic.net/thumb/webtoon/654774/thumbnail/thumbnail_IMAG10_c966c4af-f642-4531-b39b-74c284034d9e.jpg');"></div>
+                <div class="webtoon_info">
+                    <p>소녀의 세계</p>
+                    <span>모랑지</span>
+                    <span>네이버</span>
+                </div>
+            </a>
+        </div>
+        <div class="webtoon_content col-4">
+            <a href="javascript:;">
+                <div class="webtoon_img" style="background-image: url('https://shared-comic.pstatic.net/thumb/webtoon/774863/thumbnail/thumbnail_IMAG10_bcaea87e-33e2-4a5f-90d7-bf6bc8998e34.jpg');"></div>
+                <div class="webtoon_info">
+                    <p>팔이피플</p>
+                    <span>매미 / 희세</span>
+                    <span>네이버</span>
+                </div>
+            </a>
+        </div>    
+    </div>
+</div>
+{% endblock %}
