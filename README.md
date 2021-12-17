@@ -7,49 +7,49 @@
 
 ## 교육 내용
 * 1주차 (PYTHON)
-** Python 설치
-** Anaconda 설치
-** Python 문법
+ * Python 설치
+ * Anaconda 설치
+ * Python 문법
 
 * 2주차 (WEB, SQLITE)
-** HTML
-** CSS
-** SQLite
+ * HTML
+ * CSS
+ * SQLite
 
 * 3주차 (DJANGO)
-** Django 설치
-** 프로젝트 및 앱 생성
-** 웹사이트 구축
+ * Django 설치
+ * 프로젝트 및 앱 생성
+ * 웹사이트 구축
 
 * 4주차 (SCRAP)
-** 웹 크롤링
-** API
-** Pandas
+ * 웹 크롤링
+ * API
+ * Pandas
 
 * 5, 6주차 (DJANGO → prjTwo)
-** 미니프로젝트
-*** Django를 사용하여 웹사이트 구축
+ * 미니프로젝트
+  * Django를 사용하여 웹사이트 구축
 
 * 7, 8주차 (PYTHON)
-** Python 문법
+ * Python 문법
 
 * 9주차 (PYTHON → tetris)
-** 미니프로젝트
-*** pygame을 사용하여 테트리스 게임 제작
-*** 코드 분석, 추가 및 수정
+ * 미니프로젝트
+  * pygame을 사용하여 테트리스 게임 제작
+  * 코드 분석, 추가 및 수정
 
 * 10, 11주차 (PYTHON, VISUAL)
-** Python 라이브러리 사용
-*** numpy
-*** matplotlib
-*** pandas
+ * Python 라이브러리 사용
+  * numpy
+  * matplotlib
+  * pandas
 
 * 12주차 (STATISTICS)
-** 확률통계
-** 탐색기반 데이터분석
+ * 확률통계
+ * 탐색기반 데이터분석
 
 * 13주차 (ML)
-** 머신러닝
+ * 머신러닝
 
 * 14주차 (DL)
-** 딥러닝
+ * 딥러닝
