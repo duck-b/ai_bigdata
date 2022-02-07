@@ -19,6 +19,7 @@ body {
     margin-right: 0;
     font-family: 'open_sanslight';
     font-weight: 300;
+    overflow-x: hidden;
 }
 a:hover {cursor: pointer;}
 .more {
