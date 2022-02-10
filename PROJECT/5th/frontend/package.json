@@ -1,0 +1,48 @@
+{
+  "name": "spogg",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:window": "set \"REACT_APP_DEPLOY_TYPE=development\" &&  react-scripts start",
+    "start:window-prod": "set \"REACT_APP_DEPLOY_TYPE=production\" npm run start",
+    "start:dev": "REACT_APP_DEPLOY_TYPE=development npm run start",
+    "start:prod": "REACT_APP_DEPLOY_TYPE=production npm run start",
+    "build": "react-scripts build",
+    "build:window": "set \"REACT_APP_DEPLOY_TYPE=development\" && npm run build",
+    "build:window-prod": "set \"REACT_APP_DEPLOY_TYPE=production\" npm run build",
+    "build:dev": "REACT_APP_DEPLOY_TYPE=development npm run build",
+    "build:prod": "REACT_APP_DEPLOY_TYPE=production npm run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
