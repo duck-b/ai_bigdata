@@ -1,0 +1,1252 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>부산광역시 범죄 데이터 분석</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+        <link rel="stylesheet" href="assets/css/lora-web-font.css" />
+        <link rel="stylesheet" href="assets/css/opensans-web-font.css" />
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <!-- 재범률 차트 그리기 -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+
+        <!-- 더보기 버튼 js -->
+        <script src="https://cdn.jsdelivr.net/npm/readmore-js@2.2.1/readmore.min.js"></script>
+        
+
+    </head>
+    <body data-spy="scroll" data-target="#main_navbar">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+        <nav class="navbar navbar-default navbar-fixed-top" id="main_navbar">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo" /></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a onClick="location.href='#home'">홈</a></li>
+                        <li><a onClick="location.href='#testimonial1'">재범 데이터</a></li>
+                        <li><a onClick="location.href='#testimonial2'">구별 현황</a></li>
+                        <li><a onClick="location.href='#testimonial3'">개선 방향</a></li>
+                        <li><a onClick="location.href='#portfolio'">시각화 데이터</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--Home page style-->
+        <header id="home" class="home" style="height:100vh">
+            <div class="overlay" style="height:100vh">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-wrapper">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="home-content text-center">
+                                    <h1><b>범죄 데이터 분석</b></h1>
+                                    <h3 style='margin-bottom: 25px'>부산시 5개년 범죄 데이터 분석 및 예방책 제안</h3>
+                                    <a class="btn btn-primary" target="_top"  onClick="location.href='#testimonial1'">데이터 확인하러 가기</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Sections -->
+        <section id="testimonial1" class="testimonial lightbg sections" name="testimonial1" style="width: 100%; height: 62.5rem;">
+            <div class="container">
+                <div class="heading text-center">
+                    <h1><b>재범 데이터</b></h1>
+                    <div class="separator"></div>
+                </div>
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="col-md-5" style="text-align: center; float:left">
+                        <img src="https://news.kbs.co.kr/data/news/2019/06/19/4224935_uzc.jpg" alt=""
+                        width="80%" height="80%">
+                        
+                        <div style="margin-top: 50px; text-align:left">
+                            <h5 style='color: #000000'><b>강력범죄로 검거된 사람 40% 이상은 재범…절도 재범률 가장 높아</b></h5>
+                            <br>
+                            <p>강력범죄 재범률이 <b>매년 조금씩 높아지면서 50%에 육박</b>하는 것으로 나타났다.</p>
+                            <p>23일 국회 행정안전위원회 소속 박완수 국민의힘 의원이 경찰청으로부터 받은 자료에 따르면 전국 기준 강력범죄 검거 인원 대비 재범률은 2018년 46.2%에서 2019년 46.3%, 2020년 46.9%로 집계됐다.</p>
+                        </div>
+                    </div>
+                <!-- Example row of columns -->
+                
+                <div class="row1" style="width:50%;float:left;margin-left:5%">
+                    <div class="col-md-12" data-wow-delay="0.2s">
+                        <h3 style="text-align: center; margin: bootom 0px; color:black"><b>재범 발생 건수</b></h3><br>
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                            
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#quote-carousel" data-slide-to="0" class="active">
+                                    <img class="img-responsive " src="assets/images/years/001.png" alt="Team Member">
+
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="1">
+                                    <img class="img-responsive" src="assets/images/years/002.png" alt="Team Member">
+
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="2">
+                                    <img class="img-responsive" src="assets/images/years/003.png" alt="Team Member">
+
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="3">
+                                    <img class="img-responsive" src="assets/images/years/004.png" alt="Team Member">
+
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="4">
+                                    <img class="img-responsive" src="assets/images/years/005.png" alt="Team Member">
+
+                                </li>
+                            </ol>
+
+                            <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner text-center margin-top-60">
+
+                                <!-- Quote 1 -->
+                                <div class="item active">
+                                    <div class="row" >
+                                        <div class="col-sm-6 col-sm-offset-3 details" style="padding-left: 0px;">
+                                            <!-- <div >
+                                                <img src="../velox-free-html5-portfolio-one-page-template/pngegg.png" alt=""
+                                                width="190" height="150" style= "padding:10px;">
+                                            </div> -->
+                                            <canvas id="myChart1" style="margin-left: 0px;  width:29vw;" ></canvas>
+                                            <script>
+                                                // 차트를 그럴 영역을 dom요소로 가져온다.
+                                                var chartArea = document.getElementById('myChart1').getContext('2d');
+                                                // 차트를 생성한다. 
+                                                var myChart = new Chart(chartArea, {
+                                                    // ①차트의 종류(String)
+                                                    type: 'bar',
+                                                    // ②차트의 데이터(Object)
+                                                    data: {
+                                                        // ③x축에 들어갈 이름들(Array)
+                                                        labels: ['동종범죄(흉악)','동종범죄(폭력)','이종범죄(흉악)','이종범죄(폭력)'],
+                                                        // ④실제 차트에 표시할 데이터들(Array), dataset객체들을 담고 있다.
+                                                        datasets: [{
+                                                            // ⑤dataset의 이름(String)
+                                                            label: '2016',
+                                                            // ⑥dataset값(Array)
+                                                            data: [ 1778, 43922,14875,116154],
+                                                            // ⑦dataset의 배경색(rgba값을 String으로 표현)
+                                                            backgroundColor: 'rgba(69, 174, 221)',
+                                                            // ⑧dataset의 선 색(rgba값을 String으로 표현)
+                                                            borderColor: 'rgba(3,86,137, 1)',
+                                                            // ⑨dataset의 선 두께(Number)
+                                                            borderWidth: 1
+                                                        }]
+                                                    },
+                                                    // ⑩차트의 설정(Object)
+                                                    options: {
+                                                        responsive: false,//차트 크기 조절여부
+                                                        // ⑪축에 관한 설정(Object)
+                                                        scales: {
+                                                            // ⑫y축에 대한 설정(Object)
+                                                            y: [{ 
+                                                                ticks: { stepSize: 10, //y축 간격 
+                                                                    suggestedMin: 0,//y축 최소 값 
+                                                                    suggestedMax: 120,//y축 최대값 
+                                                                }, 
+                                                                gridLines: {//y축 라인 스타일 설정 
+                                                                    borderDash: [2, 2], 
+                                                                    borderDashOffset: 0.2 
+                                                                },
+                    
+                                                                // ⑬시작을 0부터 하게끔 설정(최소값이 0보다 크더라도)(boolean)
+                                                                beginAtZero: true
+                                                            }]
+                                                        }
+                                                    }
+                                                });
+                                                </script>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Quote 2 -->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3 details">
+
+                                            <!-- <img src="../velox-free-html5-portfolio-one-page-template/pngegg.png" alt=""
+                                            width="190" height="150"> -->
+                                        
+                                        
+                                            <canvas id="myChart2" style="margin-left: 0px;  width:29vw;" ></canvas>
+                                            <script>
+                                                // 차트를 그럴 영역을 dom요소로 가져온다.
+                                                var chartArea = document.getElementById('myChart2').getContext('2d');
+                                                // 차트를 생성한다. 
+                                                var myChart = new Chart(chartArea, {
+                                                    // ①차트의 종류(String)
+                                                    type: 'bar',
+                                                    // ②차트의 데이터(Object)
+                                                    data: {
+                                                        // ③x축에 들어갈 이름들(Array)
+                                                        labels: ['동종범죄(흉악)','동종범죄(폭력)','이종범죄(흉악)','이종범죄(폭력)'],
+                                                        // ④실제 차트에 표시할 데이터들(Array), dataset객체들을 담고 있다.
+                                                        datasets: [{
+                                                            // ⑤dataset의 이름(String)
+                                                            label: '2017',
+                                                            // ⑥dataset값(Array)
+                                                            data: [2189,42060,15027,106618],
+                                                            // ⑦dataset의 배경색(rgba값을 String으로 표현)
+                                                            backgroundColor: 'rgba(69, 174, 221)',
+                                                            // ⑧dataset의 선 색(rgba값을 String으로 표현)
+                                                            borderColor: 'rgba(3,86,137, 1)',
+                                                            // ⑨dataset의 선 두께(Number)
+                                                            borderWidth: 1
+                                                        }]
+                                                    },
+                                                    // ⑩차트의 설정(Object)
+                                                    options: {
+                                                        responsive: false,//차트 크기 조절여부
+                                                        // ⑪축에 관한 설정(Object)
+                                                        scales: {
+                                                            // ⑫y축에 대한 설정(Object)
+                                                            y: [{ 
+                                                                ticks: { stepSize: 10, //y축 간격 
+                                                                    suggestedMin: 0,//y축 최소 값 
+                                                                    suggestedMax: 100,//y축 최대값 
+                                                                }, 
+                                                                gridLines: {//y축 라인 스타일 설정 
+                                                                    borderDash: [2, 2], 
+                                                                    borderDashOffset: 0.2 
+                                                                },
+                    
+                                                                // ⑬시작을 0부터 하게끔 설정(최소값이 0보다 크더라도)(boolean)
+                                                                beginAtZero: true
+                                                            }]
+                                                        }
+                                                    }
+                                                });
+                                                </script>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Quote 3 -->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3 details">
+                                            <!-- <img src="D:\Project\팀프로젝트\velox-free-html5-portfolio-one-page-template\pngegg.png" alt=""
+                                            width="190" height="150" style=" padding:10px;"> -->
+                                        
+                                        
+                                            <canvas id="myChart3" style="margin-left: 0px;  width:29vw;" ></canvas>
+                                            <script>
+                                                // 차트를 그럴 영역을 dom요소로 가져온다.
+                                                var chartArea = document.getElementById('myChart3').getContext('2d');
+                                                // 차트를 생성한다. 
+                                                var myChart = new Chart(chartArea, {
+                                                    // ①차트의 종류(String)
+                                                    type: 'bar',
+                                                    // ②차트의 데이터(Object)
+                                                    data: {
+                                                        // ③x축에 들어갈 이름들(Array)
+                                                        labels: ['동종범죄(흉악)','동종범죄(폭력)','이종범죄(흉악)','이종범죄(폭력)'],
+                                                        // ④실제 차트에 표시할 데이터들(Array), dataset객체들을 담고 있다.
+                                                        datasets: [{
+                                                            // ⑤dataset의 이름(String)
+                                                            label: '2018',
+                                                            // ⑥dataset값(Array)
+                                                            data: [2593,40987, 13878, 97900],
+                                                            // ⑦dataset의 배경색(rgba값을 String으로 표현)
+                                                            backgroundColor: 'rgba(69, 174, 221)',
+                                                            // ⑧dataset의 선 색(rgba값을 String으로 표현)
+                                                            borderColor: 'rgba(3,86,137, 1)',
+                                                            // ⑨dataset의 선 두께(Number)
+                                                            borderWidth: 1
+                                                        }]
+                                                    },
+                                                    // ⑩차트의 설정(Object)
+                                                    options: {
+                                                        responsive: false,//차트 크기 조절여부
+                                                        // ⑪축에 관한 설정(Object)
+                                                        scales: {
+                                                            // ⑫y축에 대한 설정(Object)
+                                                            y: [{ 
+                                                                ticks: { stepSize: 10, //y축 간격 
+                                                                    suggestedMin: 0,//y축 최소 값 
+                                                                    suggestedMax: 100,//y축 최대값 
+                                                                }, 
+                                                                gridLines: {//y축 라인 스타일 설정 
+                                                                    borderDash: [2, 2], 
+                                                                    borderDashOffset: 0.2 
+                                                                },
+                    
+                                                                // ⑬시작을 0부터 하게끔 설정(최소값이 0보다 크더라도)(boolean)
+                                                                beginAtZero: true
+                                                            }]
+                                                        }
+                                                    }
+                                                });
+                                                </script>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Quote 4 -->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3 details">
+                                            <!-- <img src="D:\Project\팀프로젝트\velox-free-html5-portfolio-one-page-template\pngegg.png" alt=""
+                                            width="190" height="150" style="padding:10px;"> -->
+                                        
+                                        
+                                            <canvas id="myChart4" style="margin-left: 0px;  width:29vw;" ></canvas>
+                                            <script>
+                                                // 차트를 그럴 영역을 dom요소로 가져온다.
+                                                var chartArea = document.getElementById('myChart4').getContext('2d');
+                                                // 차트를 생성한다. 
+                                                var myChart = new Chart(chartArea, {
+                                                    // ①차트의 종류(String)
+                                                    type: 'bar',
+                                                    // ②차트의 데이터(Object)
+                                                    data: {
+                                                        // ③x축에 들어갈 이름들(Array)
+                                                        labels: ['동종범죄(흉악)','동종범죄(폭력)','이종범죄(흉악)','이종범죄(폭력)'],
+                                                        // ④실제 차트에 표시할 데이터들(Array), dataset객체들을 담고 있다.
+                                                        datasets: [{
+                                                            // ⑤dataset의 이름(String)
+                                                            label: '2019',
+                                                            // ⑥dataset값(Array)
+                                                            data: [2689,39833,13790, 97769],
+                                                            // ⑦dataset의 배경색(rgba값을 String으로 표현)
+                                                            backgroundColor: 'rgba(69, 174, 221)',
+                                                            // ⑧dataset의 선 색(rgba값을 String으로 표현)
+                                                            borderColor: 'rgba(3,86,137, 1)',
+                                                            // ⑨dataset의 선 두께(Number)
+                                                            borderWidth: 1
+                                                        }]
+                                                    },
+                                                    // ⑩차트의 설정(Object)
+                                                    options: {
+                                                        responsive: false,//차트 크기 조절여부
+                                                        // ⑪축에 관한 설정(Object)
+                                                        scales: {
+                                                            // ⑫y축에 대한 설정(Object)
+                                                            y: [{ 
+                                                                ticks: { stepSize: 10, //y축 간격 
+                                                                    suggestedMin: 0,//y축 최소 값 
+                                                                    suggestedMax: 100,//y축 최대값 
+                                                                }, 
+                                                                gridLines: {//y축 라인 스타일 설정 
+                                                                    display:false
+                                                                    
+                                                                },
+                    
+                                                                // ⑬시작을 0부터 하게끔 설정(최소값이 0보다 크더라도)(boolean)
+                                                                beginAtZero: true
+                                                            }]
+                                                        }
+                                                    }
+                                                });
+                                                </script>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- Quote 5 -->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3 details">
+                                            <!-- <img src="D:\Project\팀프로젝트\velox-free-html5-portfolio-one-page-template\pngegg.png" alt=""
+                                            width="190" height="150" style=" padding:10px;"> -->
+                                        
+                                        
+                                            <canvas id="myChart5" style="margin-left: 0px;  width:29vw;" ></canvas>
+                                            <script>
+                                                // 차트를 그럴 영역을 dom요소로 가져온다.
+                                                var chartArea = document.getElementById('myChart5').getContext('2d');
+                                                // 차트를 생성한다. 
+                                                var myChart = new Chart(chartArea, {
+                                                    // ①차트의 종류(String)
+                                                    type: 'bar',
+                                                    // ②차트의 데이터(Object)
+                                                    data: {
+                                                        // ③x축에 들어갈 이름들(Array)
+                                                        labels: ['동종범죄(흉악)','동종범죄(폭력)','이종범죄(흉악)','이종범죄(폭력)'],
+                                                        // ④실제 차트에 표시할 데이터들(Array), dataset객체들을 담고 있다.
+                                                        datasets: [{
+                                                            // ⑤dataset의 이름(String)
+                                                            label: '2020',
+                                                            // ⑥dataset값(Array)
+                                                            data: [2546,35880,13157, 89774],
+                                                            // ⑦dataset의 배경색(rgba값을 String으로 표현)
+                                                            backgroundColor: 'rgba(69, 174, 221)',
+                                                            // ⑧dataset의 선 색(rgba값을 String으로 표현)
+                                                            borderColor: 'rgba(3,86,137, 1)',
+                                                            // ⑨dataset의 선 두께(Number)
+                                                            borderWidth: 1
+                                                        }]
+                                                    },
+                                                    // ⑩차트의 설정(Object)
+                                                    options: {
+                                                        responsive: false,//차트 크기 조절여부
+                                                        // ⑪축에 관한 설정(Object)
+                                                        scales: {
+                                                            // ⑫y축에 대한 설정(Object)
+                                                            y: [{ 
+                                                                ticks: { stepSize: 10, //y축 간격 
+                                                                    suggestedMin: 0,//y축 최소 값 
+                                                                    suggestedMax: 100,//y축 최대값 
+                                                                }, 
+                                                                gridLines: {//y축 라인 스타일 설정 
+                                                                    borderDash: [2, 2], 
+                                                                    borderDashOffset: 0.2 
+                                                                },
+                    
+                                                                // ⑬시작을 0부터 하게끔 설정(최소값이 0보다 크더라도)(boolean)
+                                                                beginAtZero: true
+                                                            }]
+                                                        }
+                                                    }
+                                                });
+                                                </script>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Carousel Buttons Next/Prev -->
+                            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div> <!-- /container -->       
+        </section>
+       
+
+        <!-- Sections -->
+        <section id="testimonial2" class="testimonial lightbg sections" style="width: 100%;height: 62.5rem; background-color: #F1F3F5; overflow: visible">
+            <div class="container">
+                <div class="heading text-center">
+                    <h1><b>구별 범죄율 및 CCTV 현황</b></h1>
+                    <div class="separator"></div>
+                </div>
+              <!-- Example row of columns -->
+              <div class="row2">
+                <div class="col-md-12" data-wow-delay="0.1s">
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel1">
+                        <!-- Example row of columns -->
+                <div class="row2">
+                    <div class="col-md-12" data-wow-delay="0.1s">
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel1">
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#quote-carousel1" data-slide-to="0" class="active">
+                                    <img class="img-responsive " src="assets/images/years2/001.png" alt="Team Member">
+
+                                </li>
+                                <li data-target="#quote-carousel1" data-slide-to="1">
+                                    <img class="img-responsive" src="assets/images/years2/002.png" alt="Team Member">
+
+                                </li>
+                                <li data-target="#quote-carousel1" data-slide-to="2">
+                                    <img class="img-responsive" src="assets/images/years2/003.png" alt="Team Member">
+
+                                </li>
+                                <li data-target="#quote-carousel1" data-slide-to="3">
+                                    <img class="img-responsive" src="assets/images/years2/004.png" alt="Team Member">
+
+                                </li>
+                                <li data-target="#quote-carousel1" data-slide-to="4">
+                                    <img class="img-responsive" src="assets/images/years2/005.png" alt="Team Member">
+
+                                </li>
+                            </ol>
+
+                            <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner text-center margin-top-60">
+
+                                <!-- 지도 1 -->
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3 details">
+                                            <iframe src="../새 폴더/map_2016.html" frameborder="0"
+                                            style="margin-left: 10vw;width:37.5rem;height:25rem"></iframe>
+                                            <small>2016년 지도 <a href="../새 폴더/map_2016.html">크게 보기</a></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 지도 2 -->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3 details">
+                                            <iframe src="../새 폴더/map_2017.html" frameborder="0"
+                                            style="margin-left: 10vw;width:37.5rem;height:25rem"></iframe>
+                                            <small>2017년 지도 <a href="../새 폴더/map_2020.html">크게 보기</a></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 지도 3 -->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3 details">
+                                            <iframe src="../새 폴더/map_2018.html" frameborder="0"
+                                            style="margin-left: 10vw;width:37.5rem;height:25rem"></iframe>
+                                            <small>2018년 지도 <a href="../새 폴더/map_2018.html">크게 보기</a></small>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- 지도 4 -->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3 details">
+                                            <iframe src="../새 폴더/map_2019.html" frameborder="0" 
+                                            style="margin-left: 10vw; width:37.5rem;height:25rem"></iframe>
+                                            <small>2019년 지도 <a href="../새 폴더/map_2019.html">크게 보기</a></small>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- 지도 5 -->
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3 details">
+                                            <iframe src="../새 폴더/map_2020.html" frameborder="0" 
+                                            style="margin-left: 10vw;width:37.5rem;height:25rem"></iframe>
+                                            <small>2020년 지도 <a href="../새 폴더/map_2020.html">크게 보기</a></small>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Carousel Buttons Next/Prev -->
+                            <a data-slide="prev" href="#quote-carousel1" class="left carousel-control1"><i class="fa fa-chevron-left"></i></a>
+                            <a data-slide="next" href="#quote-carousel1" class="right carousel-control1"><i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div> <!-- /container -->       
+        </section>
+                    </div>
+                </div>
+
+            </div>
+        </div> <!-- /container -->       
+    </section>
+
+                </div>
+            </div> <!-- /container -->       
+        </section>
+
+        <section id="testimonial3" class="testimonial lightbg sections" style="width: 100vw;height: 100vh;">
+            <div class="container">
+                <div class="heading text-center">
+                    <h1><b>개선방향</b></h1>
+                    <div class="separator"></div>
+                </div>
+                <!-- <h3 style="text-align: center;">범죄예방 환경설계(CETED) 활용</h3>
+                <br> -->
+                <p  style="text-align: center; font-size: 20pt;
+                    font-weight: bold; margin-bottom: 50px;">범죄예방 환경설계(CPTED) 활용</p>
+                <div class="col-sm-7">
+                    <div >
+                        <div style="background-color:rgb(116, 210, 229) ;padding-top: 40px; border-radius:8px;
+                        height: 280px;margin: auto;text-align: center;">
+                            <img src="../새 폴더/images/icon_cctv.png" alt="" width="180px" height="180px" 
+                            style="margin-bottom: 10px;">
+                            <img src="../새 폴더/images/icon_city.png" alt=""width="180px" height="180px"
+                            style="margin-bottom: 10px;margin-left: 25px;margin-right: 25px;">
+                            <img src="../새 폴더/images/icon_light.png" alt=""width="180px" height="180px"
+                            style="margin-bottom: 10px;">
+                            <br>
+                            <b class="text-head1" style=" font-size:15pt;">CCTV 설치</b>
+                            <b class="text-head1" style="font-size:15pt;margin-left: 105px;margin-right: 105px;">가로등 설치</b>
+                            <b class="text-head1" style="font-size:15pt">거리도색</b>
+                        </div>
+                        <p class="text-head2" style="font-size: 18pt;font-weight: bold;margin-top: 20px;">셉테드(CPTED)란?</p>
+                        <p style="font-weight: bold; font-size: 15pts;margin-top: 20px;">생활환경을 범죄가 발생하기 어려운 구조로 개선하여 범죄발생 가능성을 최소화하는 환경설계 기법</p>
+                    
+                    </div>
+                </div>
+
+                <div class="col-sm-5">
+                    <img src="../새 폴더/images/cpted.jpg" alt="">
+                    <p style="font-size: 20px; margin-top: 20px"><b>부산 셉테트 마을 범죄예방 '효과'</b></p>
+                    <p style="margin-top: 30px;">2015년도 부산 경찰청에 따르면 셉테드 행복마을 조성지역에서의 <b>5대범죄가 65.9% 감소</b>했음을 밝혔다.<br/>
+                        특히 <b>절도의 경우 75%(45건)나 크게 감소</b>했으며, <b>폭력도 52.8%(19건) 감소</b>, 뒤를 이었다. 인접지역에도 강도가 73.6%(14건), 절도가 32.3%(771건) 각각 감소했다.</p>    
+                </div>
+                
+                   
+                
+                <!-- Example row of columns -->
+               
+                
+            </div> <!-- /container -->       
+        </section>
+
+        <section id="portfolio" class="portfolio lightbg sections" style="background-color: #F1F3F5;">
+            <div class="container">
+                <div class="heading text-center">
+                    <h1><b>시각화 데이터</b></h1>
+                    <div class="separator"></div>
+                </div>
+                <div class="row">
+                    <div class="main_portfolio whitebackground">
+                        <div class="portffolio_content text-center">
+                            <div class="portffolio_menu">
+                                <div class="filters-button-group">
+                                    <button class="button is-checked" data-filter="*">All</button>
+                                    <button class="button " data-filter=".metal">Pie</button>
+                                    <button class="button " data-filter=".transition">Bar</button>
+                                    <button class="button " data-filter=".earth">Heatmap</button>
+                                    <button class="button " data-filter=".alkali">Scatter</button>
+                                </div>
+                            </div>
+
+                            <div class="portffolio_content_deteals" id='div_graphs' style='height: 1020px; overflow: hidden;'>
+                                <div class="portfolio-one">
+
+                                    <div class="col-sm-4 col-xs-12 portfolio-item metal " data-category="pie">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/pie_면적.png"><img src="../새 폴더/images/pie_면적.png" alt="" /></a>
+                                            <h2>면적</h2>
+                                        </div>
+
+                                    </div>
+                                
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_가로등수.png"><img src="../새 폴더/images/bar_가로등수.png" alt="" /></a>
+                                            <h2>가로등수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_강력범죄_범죄.png"><img src="../새 폴더/images/bar_강력범죄_범죄.png" alt="" /></a>
+                                            <h2>강력범죄_범죄</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_강력범죄.png"><img src="../새 폴더/images/bar_강력범죄.png" alt="" /></a>
+                                            <h2>강력범죄</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_공공체육시설.png"><img src="../새 폴더/images/bar_공공체육시설.png" alt="" /></a>
+                                            <h2>공공체육시설</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_면적_가로등수.png"><img src="../새 폴더/images/bar_면적_가로등수.png" alt="" /></a>
+                                            <h2>면적 대비 가로등수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_면적_CCTV수.png"><img src="../새 폴더/images/bar_면적_CCTV수.png" alt="" /></a>
+                                            <h2>면적 대비 CCTV수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_범죄_인구.png"><img src="../새 폴더/images/bar_범죄_인구.png" alt="" /></a>
+                                            <h2>범죄 인구</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_범죄발생.png"><img src="../새 폴더/images/bar_범죄발생.png" alt="" /></a>
+                                            <h2>범죄 발생</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_사망(명).png"><img src="../새 폴더/images/bar_사망(명).png" alt="" /></a>
+                                            <h2>사망자수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_세대수.png"><img src="../새 폴더/images/bar_세대수.png" alt="" /></a>
+                                            <h2>여성 인구</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_외국인_인구.png"><img src="../새 폴더/images/bar_외국인_인구.png" alt="" /></a>
+                                            <h2>외국인 인구</h2>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_외국인(남).png"><img src="../새 폴더/images/bar_외국인(남).png" alt="" /></a>
+                                            <h2>외국인(남)</h2>
+                                        </div>
+
+                                    </div>                                                                                                            
+                                    
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_외국인(남).png"><img src="../새 폴더/images/bar_외국인(남).png" alt="" /></a>
+                                            <h2>외국인 인구(남)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_외국인(여).png"><img src="../새 폴더/images/bar_외국인(여).png" alt="" /></a>
+                                            <h2>외국인 인구(여)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_의료기관.png"><img src="../새 폴더/images/bar_의료기관.png" alt="" /></a>
+                                            <h2>의료기관</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_이혼(건).png"><img src="../새 폴더/images/bar_이혼(건).png" alt="" /></a>
+                                            <h2>이혼(건)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_인구_가로등수.png"><img src="../새 폴더/images/bar_인구_가로등수.png" alt="" /></a>
+                                            <h2>인구 대비 가로등수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_인구_면적.png"><img src="../새 폴더/images/bar_인구_면적.png" alt="" /></a>
+                                            <h2>인구 대비 면적</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_인구_CCTV수.png"><img src="../새 폴더/images/bar_인구_CCTV수.png" alt="" /></a>
+                                            <h2>인구 대비 CCTV수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_인구.png"><img src="../새 폴더/images/bar_인구.png" alt="" /></a>
+                                            <h2>인구</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_저소득층_세대수.png"><img src="../새 폴더/images/bar_저소득층_세대수.png" alt="" /></a>
+                                            <h2>저소득층 세대수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_저소득층_인구.png"><img src="../새 폴더/images/bar_저소득층_인구.png" alt="" /></a>
+                                            <h2>저소득층_인구</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_저소득층(가구).png"><img src="../새 폴더/images/bar_저소득층(가구).png" alt="" /></a>
+                                            <h2>저소득층(가구)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_저소득층(인구).png"><img src="../새 폴더/images/bar_저소득층(인구).png" alt="" /></a>
+                                            <h2>저소득층(인구)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_지방세 징수(백만원).png"><img src="../새 폴더/images/bar_지방세 징수(백만원).png" alt="" /></a>
+                                            <h2></h2>지방세 징수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_초등학교.png"><img src="../새 폴더/images/bar_초등학교.png" alt="" /></a>
+                                            <h2>초등학교</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_출생(명).png"><img src="../새 폴더/images/bar_출생(명).png" alt="" /></a>
+                                            <h2>출생(명)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_폭력범죄.png"><img src="../새 폴더/images/bar_폭력범죄.png" alt="" /></a>
+                                            <h2>폭력범죄</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_한국인(남).png"><img src="../새 폴더/images/bar_한국인(남).png" alt="" /></a>
+                                            <h2>한국인(남)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_한국인(여).png"><img src="../새 폴더/images/bar_한국인(여).png" alt="" /></a>
+                                            <h2>한국인(여)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_혼인(건).png"><img src="../새 폴더/images/bar_혼인(건).png" alt="" /></a>
+                                            <h2>혼인(건)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_흉악범죄.png"><img src="../새 폴더/images/bar_흉악범죄.png" alt="" /></a>
+                                            <h2>흉악범죄</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item transition " data-category="bar">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/bar_CCTV수.png"><img src="../새 폴더/images/bar_CCTV수.png" alt="" /></a>
+                                            <h2>CCTV수</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item earth " data-category="Heatmap">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/heatmap.png"><img src="../새 폴더/images/heatmap.png" alt="" /></a>
+                                            <h2>heatmap</h2>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_가로등수.png"><img src="../새 폴더/images/scatter_가로등수.png" alt="" /></a>
+                                            <h2>가로등수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_강력범죄.png"><img src="../새 폴더/images/scatter_강력범죄.png" alt="" /></a>
+                                            <h2>강력범죄</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_공공체육시설.png"><img src="../새 폴더/images/scatter_공공체육시설.png" alt="" /></a>
+                                            <h2>공공체육시설</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_면적_가로등수.png"><img src="../새 폴더/images/scatter_면적_가로등수.png" alt="" /></a>
+                                            <h2>면적 대비 가로등수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_면적_CCTV수.png"><img src="../새 폴더/images/scatter_면적_CCTV수.png" alt="" /></a>
+                                            <h2>면적 대비 CCTV수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_범죄_인구.png"><img src="../새 폴더/images/scatter_범죄_인구.png" alt="" /></a>
+                                            <h2>범죄 인구</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_범죄발생.png"><img src="../새 폴더/images/scatter_범죄발생.png" alt="" /></a>
+                                            <h2>범죄발생</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_사망(명).png"><img src="../새 폴더/images/scatter_사망(명).png" alt="" /></a>
+                                            <h2>사망(명)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_세대수.png"><img src="../새 폴더/images/scatter_세대수.png" alt="" /></a>
+                                            <h2>세대수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_여성_인구.png"><img src="../새 폴더/images/scatter_여성_인구.png" alt="" /></a>
+                                            <h2>여성 인구</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_외국인_인구.png"><img src="../새 폴더/images/scatter_외국인_인구.png" alt="" /></a>
+                                            <h2>외국인 인구</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_외국인(남).png"><img src="../새 폴더/images/scatter_외국인(남).png" alt="" /></a>
+                                            <h2>외국인(남)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_외국인(여).png"><img src="../새 폴더/images/scatter_외국인(여).png" alt="" /></a>
+                                            <h2>외국인(여)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_의료기관.png"><img src="../새 폴더/images/scatter_의료기관.png" alt="" /></a>
+                                            <h2>의료기관</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_이혼(건).png"><img src="../새 폴더/images/scatter_이혼(건).png" alt="" /></a>
+                                            <h2>이혼(건)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_인구_가로등수.png"><img src="../새 폴더/images/scatter_인구_가로등수.png" alt="" /></a>
+                                            <h2>인구 대비 가로등수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_인구_면적.png"><img src="../새 폴더/images/scatter_인구_면적.png" alt="" /></a>
+                                            <h2>인구 대비 면적</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_인구_CCTV수.png"><img src="../새 폴더/images/scatter_인구_CCTV수.png" alt="" /></a>
+                                            <h2>인구 대비 CCTV수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_인구.png"><img src="../새 폴더/images/scatter_인구.png" alt="" /></a>
+                                            <h2>인구</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_저소득층_세대수.png"><img src="../새 폴더/images/scatter_저소득층_세대수.png" alt="" /></a>
+                                            <h2>저소득층 세대수</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_저소득층_인구.png"><img src="../새 폴더/images/scatter_저소득층_인구.png" alt="" /></a>
+                                            <h2>저소득층 인구</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_저소득층(가구).png"><img src="../새 폴더/images/scatter_저소득층(가구).png" alt="" /></a>
+                                            <h2>저소득층(가구)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_저소득층(인구).png"><img src="../새 폴더/images/scatter_저소득층(인구).png" alt="" /></a>
+                                            <h2>저소득층(인구)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_지방세 징수(백만원).png"><img src="../새 폴더/images/scatter_지방세 징수(백만원).png" alt="" /></a>
+                                            <h2>지방세 징수(백만원)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_초등학교.png"><img src="../새 폴더/images/scatter_초등학교.png" alt="" /></a>
+                                            <h2>초등학교</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_출생(명).png"><img src="../새 폴더/images/scatter_출생(명).png" alt="" /></a>
+                                            <h2>출생(명)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_폭력범죄.png"><img src="../새 폴더/images/scatter_폭력범죄.png" alt="" /></a>
+                                            <h2>폭력범죄</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_한국인(남).png"><img src="../새 폴더/images/scatter_한국인(남).png" alt="" /></a>
+                                            <h2>한국인(남)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_한국인(여).png"><img src="../새 폴더/images/scatter_한국인(여).png" alt="" /></a>
+                                            <h2>한국인(여)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_혼인(건).png"><img src="../새 폴더/images/scatter_혼인(건).png" alt="" /></a>
+                                            <h2>혼인(건)</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_흉악범죄.png"><img src="../새 폴더/images/scatter_흉악범죄.png" alt="" /></a>
+                                            <h2>흉악범죄</h2>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 portfolio-item alkali " data-category="Scatter">
+                                        <div class="single_portfolio_img">
+                                            <a class="portfolio-img" href="../새 폴더/images/scatter_CCTV수.png"><img src="../새 폴더/images/scatter_CCTV수.png" alt="" /></a>
+                                            <h2>CCTV수</h2>
+                                        </div>
+
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id='show_close_btn' class='text-center' style="margin-top: 15px">
+                <a href="javascirpt:;" class="btn btn-primary" onclick="show_graph()">전체 보기</a>	
+            </div>
+        </section>
+        <!-- End of portfolio-one Section -->
+        <!-- Sections
+        <section id="contact" class="contact" style="width: 100vw;height: 100vh;">
+            <div class="container">
+                Example row of columns
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="contact-top">
+                            <h1>Contact Us</h1>
+                        </div>
+                        <div class="contact-left-info">
+                            <h5>Our Address</h5>
+                            <p>House No,11132, Sector 31, Gurgaon 122001  India</p>
+                        </div>
+
+                        <div class="contact-left-info">
+                            <h5>Call Us</h5>
+                            <p>+ 91-9876543210</p>
+                            <p>+ 91-9876543210</p>
+                        </div>
+
+                        <div class="contact-left-info">
+                            <h5>Email Us</h5>
+                            <p>contactus@email.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <div class="contact-top navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right bottom-nav">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#service">Services</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#testimonial">Testimonials</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div> /.navbar-collapse -->
+
+                        <!-- <div class="contact-form">
+                            <form action="" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Name</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Subject</label>
+                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1">Your Message</label>
+                                            <textarea rows="7" class="form-control" id="exampleInputPassword1" placeholder=""></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-btn">
+                                    <button type="submit" class="btn btn-primary">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div> /container       
+        </section> --> 
+
+
+
+        <!--Footer-->
+        <footer id="footer" class="footer" > 
+            <div class="container">
+
+                <div class="scroll-top">
+
+                    <div class="scrollup">
+                        <i class="fa fa-angle-up"></i>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="copyright">
+                            <p>&copy; Copyright by 취업해버리조</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="social text-right">
+                            <h4><a target="_blank" href="#"><img src="../velox-free-html5-portfolio-one-page-template/assets/images/logo.png" alt=""></a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            function show_graph(){
+                document.getElementById('div_graphs').style.height = 'auto';
+                document.getElementById('div_graphs').style.overflow = 'visible';
+                document.getElementById('show_close_btn').innerHTML = '<a href="javascirpt:;" class="btn btn-primary" onclick="close_graph()">닫기</a>'
+            }
+            function close_graph(){
+                document.getElementById('div_graphs').style.height = '1020px';
+                document.getElementById('div_graphs').style.overflow = 'hidden';
+                document.getElementById('show_close_btn').innerHTML = '<a href="javascirpt:;" class="btn btn-primary" onclick="show_graph()">전체 보기</a>'
+            }
+        </script>
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/isotope.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
+         <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

@@ -3,15 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-corekit/sleep": "^1.1.0",
     "axios": "^0.26.0",
-    "bootstrap": "^4.5.3",
+    "bootstrap": "4.6.0",
     "dotenv": "^8.2.0",
     "dotenv-expand": "^5.1.0",
+    "js-cookie": "^3.0.1",
     "react": "^17.0.1",
-    "react-bootstrap": "^1.4.3",
+    "react-bootstrap": "1.6.1",
     "react-dom": "^17.0.1",
+    "react-minimal-pie-chart": "^8.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "react-star-ratings": "^2.3.0",
+    "react-wordcloud": "^1.2.7",
+    "recharts": "^2.1.9",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

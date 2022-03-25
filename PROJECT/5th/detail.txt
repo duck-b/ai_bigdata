@@ -1,0 +1,1463 @@
+{
+    "movie_id": 10002,
+    "movie_title": "빽 투 더 퓨쳐",
+    "movie_url": "https://movie.naver.com/movie/bi/mi/basic.naver?code=10002",
+    "movie_aud": 9.39,
+    "movie_net": 9.42,
+    "movie_rep": 8.75,
+    "movie_poster": "https://movie-phinf.pstatic.net/20150924_194/1443056454769VJKkL_JPEG/movie_image.jpg?type=m203_290_2",
+    "movie_genre": 7,
+    "movie_country": 2,
+    "movie_runtime": 120,
+    "movie_release": "2015-10-21",
+    "movie_director": "로버트 저메키스",
+    "movie_age": 2,
+    "movie_content": "힐 밸리(Hill Valley)에 사는 주인공 마티 맥플라이(Marty McFly: 마이클 J. 폭스 분)는 록큰롤 스케이트보드 그리고 자동차를 좋아하는 명랑 쾌할한 고교생으로 아버지 죠지(George Douglas McFly: 크리스핀 글로버 분)와 어머니 로레인(Lorraine Baines: 리아 톰슨 분) 그리고 형과 누나가 있는 가정의 평범한 청소년이다. 평소 친하게 지내던 괴상한 발명가 에메트 브라운 박사(Dr. EmmDr. Emmett L. 'Doc' Brown: 크리스토퍼 로이드 분)가 스포츠카 드로리안(DeLorean)을 개조해 타임머신을 만들지만 뜻밖의 사고로 브라운 박사가 테러범들에게 총을 맞고 위험해진 마티는 급기야 30년 전으로 간다.극장 간판에는 2류 배우인 로널드 레이건이 보이고 청년인 아버지와 어머니를 보게 된다. 그러나 젊은 아버진 여전히 멍청하고 무엇보다 어머니가 미래의 아들인 마티를 좋아해 야단이다. 마티가 미래로 가는 것을 도와 줄 사람은 30년 전인 젊은 브라운 박사뿐. 댄스 파티가 열리는 날에 아버지와 어머니가 만났던 것을 기억한 마티는 두 사람을 결합시키고자 어머니와 파티장으로 간다. 그런데 심술장이 밥(Biff Tannen: 토마스 F. 윌슨 분)이 나타나 어머니를 겁탈하려 하나 화가 난 아버지가 일격에 때려 눕혀 그때부터 소심했던 아버지의 성격이 바낀다. 무사히 부모님은 만나 마티의 존재는 없었지지 않지만 마티의 '미래로의 귀환(Back to the future)'이 어려워지는 사태를 맞는데....",
+    "cast": [
+        {
+            "cast_id": 51,
+            "cast_actor": "마이클J.폭스",
+            "cast_cast": "마티 맥플라이"
+        },
+        {
+            "cast_id": 52,
+            "cast_actor": "크리스토퍼로이드",
+            "cast_cast": "에메트 브라운 박사"
+        },
+        {
+            "cast_id": 53,
+            "cast_actor": "리톰슨",
+            "cast_cast": "로레인 베인스 맥플라이"
+        }
+    ],
+    "age": [
+        {
+            "age_view10": 2,
+            "age_view20": 61,
+            "age_view30": 18,
+            "age_view40": 16,
+            "age_view50": 2,
+            "age_sati10": 9.56,
+            "age_sati20": 9.33,
+            "age_sati30": 9.54,
+            "age_sati40": 9.44,
+            "age_sati50": 8.8
+        }
+    ],
+    "comment": [
+        {
+            "comment_id": 2301,
+            "comment_userid": 7715630,
+            "comment_username": "ㅁ(mapl****)",
+            "comment_point": 10,
+            "comment_contents": "11점 주고 싶다"
+        },
+        {
+            "comment_id": 2302,
+            "comment_userid": 7673613,
+            "comment_username": "오늘ㅎr루맑음(khh7****)",
+            "comment_point": 10,
+            "comment_contents": "몇 세기가 지나도 명작인 영화. 몇 번을 봐도 질리지 않는 영화."
+        },
+        {
+            "comment_id": 2303,
+            "comment_userid": 7788880,
+            "comment_username": "네오(road****)",
+            "comment_point": 10,
+            "comment_contents": "설마 이영화가 내나이 한자리수 일때 나왔단 말인가. 내 유소년기를 함깨한 우뢰매보다 한살 적을뿐이란 말인가. 대단한 영화다. 내 유년기 빅3 sf물인액설런트 어드밴쳐 이너 스페이스 그중에서도 최고인 백투더 퓨쳐. ..."
+        },
+        {
+            "comment_id": 2304,
+            "comment_userid": 7662894,
+            "comment_username": "나e쁜놈(jino****)",
+            "comment_point": 10,
+            "comment_contents": "며칠전 트릴로지 다시 봤지만 123편 모두 연결되는시나리오 대단나다ㅋ소재와 스토리도 재밌다! 재밌는 영화다. 2편 배경이 2015년인데 날아다니는 차가 나온다.ㅋㅋㅋㅋ"
+        },
+        {
+            "comment_id": 2305,
+            "comment_userid": 8469448,
+            "comment_username": "jkin****",
+            "comment_point": 10,
+            "comment_contents": "노래고 영화고1980년대 후반~90년대가 전성기였음. 그때가 더 명작많고 가장 명작들 쏟아졌을때임. 그때까지 전세계는 놀라운 발전의 연속이었는데 지금이랑 그때랑 스마트폰 인터넷 빼고는 사실 크게 달라진게 없음. 상상..."
+        },
+        {
+            "comment_id": 2306,
+            "comment_userid": 10449028,
+            "comment_username": "김미경(elle****)",
+            "comment_point": 10,
+            "comment_contents": "명작은 시대를 초월한다"
+        },
+        {
+            "comment_id": 2307,
+            "comment_userid": 8354633,
+            "comment_username": "쥬니(qorc****)",
+            "comment_point": 10,
+            "comment_contents": "85년도 작품이라니 믿어지지가 않는다.. 보는내내 스릴있었고 잼있었다."
+        },
+        {
+            "comment_id": 2308,
+            "comment_userid": 8007735,
+            "comment_username": "삼각지우개(mati****)",
+            "comment_point": 10,
+            "comment_contents": "여러분 2015년까지 2년남았습니다"
+        },
+        {
+            "comment_id": 2309,
+            "comment_userid": 8367934,
+            "comment_username": "블루문(gpwl****)",
+            "comment_point": 10,
+            "comment_contents": "진짜 이건 그시대에 혁신이었다.."
+        },
+        {
+            "comment_id": 2310,
+            "comment_userid": 9109405,
+            "comment_username": "copymachine(copy****)",
+            "comment_point": 10,
+            "comment_contents": "이 영화 만든 사람은 천재라고 밖에 볼 수 없다."
+        },
+        {
+            "comment_id": 2311,
+            "comment_userid": 8467459,
+            "comment_username": "igch****",
+            "comment_point": 10,
+            "comment_contents": "끝났을때 영화관에서 박수받은 영화입니다."
+        },
+        {
+            "comment_id": 2312,
+            "comment_userid": 10465496,
+            "comment_username": "앵라니(sam1****)",
+            "comment_point": 10,
+            "comment_contents": "30년전 딸 10살 아들 8살데리고 봤던 영화. 지난 ㅇㅣㄹ요일 13살 손자데리고 1.2편 다봤습니다. 손자가 재미있다고ㅇㅑ단입니다."
+        },
+        {
+            "comment_id": 2313,
+            "comment_userid": 8163179,
+            "comment_username": "잠만보(tjtm****)",
+            "comment_point": 10,
+            "comment_contents": "진짜 1985년 영화라는게 진짜 말이 안된다.. 이건 T2 다음으로 컬쳐쇼크다..."
+        },
+        {
+            "comment_id": 2314,
+            "comment_userid": 10449566,
+            "comment_username": "Double_K(giga****)",
+            "comment_point": 10,
+            "comment_contents": "이영화를극장에서보게되다니"
+        },
+        {
+            "comment_id": 2315,
+            "comment_userid": 9411571,
+            "comment_username": "은비(koda****)",
+            "comment_point": 10,
+            "comment_contents": "진짜 엄청난 수작이다 이게 85년도 영화라니 요즘 수백억영화보다 훨씬재밌게봣다"
+        },
+        {
+            "comment_id": 2316,
+            "comment_userid": 7665908,
+            "comment_username": "다넬(skyr****)",
+            "comment_point": 10,
+            "comment_contents": "94년생인데요 30년 가까이된 영화가 지금 봐도 재밋네요"
+        },
+        {
+            "comment_id": 2317,
+            "comment_userid": 10458146,
+            "comment_username": "vz(rhrl****)",
+            "comment_point": 10,
+            "comment_contents": "너무재밌어서 보다가울었다"
+        },
+        {
+            "comment_id": 2318,
+            "comment_userid": 9501260,
+            "comment_username": "라이트(ligh****)",
+            "comment_point": 10,
+            "comment_contents": "인터스텔라보다 10000배는 재밋는 영화임~"
+        },
+        {
+            "comment_id": 2319,
+            "comment_userid": 7806625,
+            "comment_username": "Financial Consultant(dwko****)",
+            "comment_point": 10,
+            "comment_contents": "존경하는 로버트저멕키스 감독님의 최고의 작품. 시대를 앞서는 상상력과 기술이 만나 전무후무한 역작을 만들었다. 스티븐 스필버그의 가장 큰 신뢰를 받아온 후배인 그는 진정 천재임이 틀림없다."
+        },
+        {
+            "comment_id": 2320,
+            "comment_userid": 10449165,
+            "comment_username": "leim****",
+            "comment_point": 10,
+            "comment_contents": "오늘 안봤음 평생 두고두고 후회했을듯"
+        },
+        {
+            "comment_id": 2321,
+            "comment_userid": 7795536,
+            "comment_username": "rute****",
+            "comment_point": 10,
+            "comment_contents": "나라면 로또를 외우고 갔겠지"
+        },
+        {
+            "comment_id": 2322,
+            "comment_userid": 10501978,
+            "comment_username": "다미(wdam****)",
+            "comment_point": 8,
+            "comment_contents": "뻔한 결말인데 왜 손에 땀이 나지"
+        },
+        {
+            "comment_id": 2323,
+            "comment_userid": 10460005,
+            "comment_username": "캡틴치킨(capt****)",
+            "comment_point": 9,
+            "comment_contents": "최곱니다..몇번을 봐도언제나 최고"
+        },
+        {
+            "comment_id": 2324,
+            "comment_userid": 7629014,
+            "comment_username": "youn****",
+            "comment_point": 10,
+            "comment_contents": "하고자 하는 의지가있으면 뭐든지 할 수 있어!"
+        },
+        {
+            "comment_id": 2325,
+            "comment_userid": 7055733,
+            "comment_username": "제스(jes9****)",
+            "comment_point": 10,
+            "comment_contents": "스티븐 스필버그는 천재야!"
+        },
+        {
+            "comment_id": 2326,
+            "comment_userid": 10455983,
+            "comment_username": "뿌요(coro****)",
+            "comment_point": 10,
+            "comment_contents": "30주년 기념으로 디지털 리마스터로 재개봉해준덕분에어렸을때 실시간으로 극장에서 보디못했던 작품을 감상할수 있어서 대만족아쉬운 점이라면 파트3편을 상영하지않았던것과상영관에 팜플렛이 적어서 가져오지못했던 점"
+        },
+        {
+            "comment_id": 2327,
+            "comment_userid": 8218150,
+            "comment_username": "mmoo****",
+            "comment_point": 10,
+            "comment_contents": "~~12점 주겠어요~~"
+        },
+        {
+            "comment_id": 2328,
+            "comment_userid": 8368138,
+            "comment_username": "mhth****",
+            "comment_point": 8,
+            "comment_contents": "세밀한 요소가 좋다. 장면 하나마다 개연성 생각을 엄청 해놓은듯."
+        },
+        {
+            "comment_id": 2329,
+            "comment_userid": 10495289,
+            "comment_username": "피아노쌤(jyco****)",
+            "comment_point": 10,
+            "comment_contents": "대박 잼나는 영화입니다 어릴때나 지금이나 강추 강추"
+        },
+        {
+            "comment_id": 2330,
+            "comment_userid": 10457569,
+            "comment_username": "글인(yudo****)",
+            "comment_point": 10,
+            "comment_contents": "참신하고 극적인 스토리전개가 돋보이는 영화였습니다. 남주인공의 낙천적인 성격이 영화를 더욱 즐겁게 이끌어가고 있네요"
+        },
+        {
+            "comment_id": 2331,
+            "comment_userid": 9365445,
+            "comment_username": "alliswell(gord****)",
+            "comment_point": 10,
+            "comment_contents": "완벽한 영화 최고의 영화"
+        },
+        {
+            "comment_id": 2332,
+            "comment_userid": 9473206,
+            "comment_username": "AKB48년(ske4****)",
+            "comment_point": 10,
+            "comment_contents": "정말 소름끼치는 작품 이게 30년전 작품이라는게 믿어지는가?"
+        },
+        {
+            "comment_id": 2333,
+            "comment_userid": 9683001,
+            "comment_username": "ehdr****",
+            "comment_point": 10,
+            "comment_contents": "ebs에서 우연히 봤는데 한 동안 다른 영화 재미없어짐ㅠㅠ내 돈내놔"
+        },
+        {
+            "comment_id": 2334,
+            "comment_userid": 11203217,
+            "comment_username": "두피왕(bus4****)",
+            "comment_point": 10,
+            "comment_contents": "먕불허전 최고다! 이런재미 줄수 있는 영화 안나오나"
+        },
+        {
+            "comment_id": 2335,
+            "comment_userid": 11352712,
+            "comment_username": "케이 리(irh7****)",
+            "comment_point": 10,
+            "comment_contents": "애들이 환장하는 영화 임.작년 30주년때 애들에게 집에서 틀어주니 모두들 환장했음. 애들에게 내가 늬들 나이때 본거라고 말해줬는데 시재다 지나도 이렇게 한결같은 수 있는 영화는 흔하지 않다."
+        },
+        {
+            "comment_id": 2336,
+            "comment_userid": 10447786,
+            "comment_username": "여름별(seon****)",
+            "comment_point": 10,
+            "comment_contents": "드디어 2015년 10월 21일이 되었다~~"
+        },
+        {
+            "comment_id": 2337,
+            "comment_userid": 9421378,
+            "comment_username": "영스(styl****)",
+            "comment_point": 10,
+            "comment_contents": "대박..이게 내가 태어나기도 전 영화라니.. 감탄밖에 안나온다"
+        },
+        {
+            "comment_id": 2338,
+            "comment_userid": 9678789,
+            "comment_username": "펜튼(ajtw****)",
+            "comment_point": 10,
+            "comment_contents": "여태까지 본 오락영화중 손에 꼽는다. 소름이 돋을 정도."
+        },
+        {
+            "comment_id": 2339,
+            "comment_userid": 8756414,
+            "comment_username": "꽃살구이(ojab****)",
+            "comment_point": 10,
+            "comment_contents": "비디오로 30번 블루레이로 10번...  다음 대사를 치고 있는 나.. ㅡㅡ;"
+        },
+        {
+            "comment_id": 2340,
+            "comment_userid": 15326854,
+            "comment_username": "전나현(jeon****)",
+            "comment_point": 10,
+            "comment_contents": "아주 어릴 때 아빠가 보여주셨던 영화아빠가 생전 가장 좋아하시던 영화였습니다.빽튜더퓨처 전도사라고 할 정도로 말입니다.시간이 흘러 어느새 성인이 되버렸는데 함께 보고싶은 아빠가 곁에 없네요.볼 때마다 아빠가 생각나..."
+        },
+        {
+            "comment_id": 2341,
+            "comment_userid": 11097392,
+            "comment_username": "Irelan(jire****)",
+            "comment_point": 10,
+            "comment_contents": "시간이 흘러도 명작!!!"
+        },
+        {
+            "comment_id": 2342,
+            "comment_userid": 10697278,
+            "comment_username": "Kush(ds12****)",
+            "comment_point": 10,
+            "comment_contents": "10점으로 이 영화를 평가할수있다고? 말도안되는 얘기네"
+        },
+        {
+            "comment_id": 2343,
+            "comment_userid": 10481037,
+            "comment_username": "YOON곰(ah48****)",
+            "comment_point": 7,
+            "comment_contents": "그들이 보여주는 2015년같지 않아 어색하지만 보는 재미가 있다"
+        },
+        {
+            "comment_id": 2344,
+            "comment_userid": 11080263,
+            "comment_username": "은루(rose****)",
+            "comment_point": 10,
+            "comment_contents": "지금봐도 너무 재밌다~!"
+        },
+        {
+            "comment_id": 2345,
+            "comment_userid": 9399222,
+            "comment_username": "SB(grea****)",
+            "comment_point": 10,
+            "comment_contents": "명작 지금 봐도 진짜 재미있다"
+        },
+        {
+            "comment_id": 2346,
+            "comment_userid": 7325543,
+            "comment_username": "무후(mooh****)",
+            "comment_point": 10,
+            "comment_contents": "내가태어난해에 개봉한영화라니..이걸이제야 봤다니..."
+        },
+        {
+            "comment_id": 2347,
+            "comment_userid": 8259648,
+            "comment_username": "아는척하지마(kod1****)",
+            "comment_point": 9,
+            "comment_contents": "이걸 모르면 간첩 어렸을때 1편보고 학원 안가고 3편까지 다본 영화"
+        },
+        {
+            "comment_id": 2348,
+            "comment_userid": 12311354,
+            "comment_username": "환기(tekk****)",
+            "comment_point": 10,
+            "comment_contents": "리메이크 안되는 이유가 있다이 이상 못 만들기 떄문이다"
+        },
+        {
+            "comment_id": 2349,
+            "comment_userid": 10714152,
+            "comment_username": "라니(cham****)",
+            "comment_point": 10,
+            "comment_contents": "미쳤다 이건 미친 영화야"
+        },
+        {
+            "comment_id": 2350,
+            "comment_userid": 8215508,
+            "comment_username": "파룽(sjer****)",
+            "comment_point": 9,
+            "comment_contents": "정말 재미있게 봤습니다 ㅋㅋ"
+        },
+        {
+            "comment_id": 2351,
+            "comment_userid": 10495309,
+            "comment_username": "mere****",
+            "comment_point": 8,
+            "comment_contents": "제가 어렸을적 재미나게 보던걸 제아이도 넘 재밌게보니 감회가 새롭네요"
+        },
+        {
+            "comment_id": 2352,
+            "comment_userid": 10545758,
+            "comment_username": "Gamja(pst0****)",
+            "comment_point": 10,
+            "comment_contents": "너무 좋앗어요 정말 다시봐도 명작!!!"
+        },
+        {
+            "comment_id": 2353,
+            "comment_userid": 12377430,
+            "comment_username": "구름바다(nola****)",
+            "comment_point": 10,
+            "comment_contents": "혹시 너무 오래된 영화라고 고민하고 있는 분들..저도 한달 전에 봤는데ㅋㅋ벌써 심심할 때마다 5번은 봤어요. 뭐 이렇게 재밌을 수 있죵"
+        },
+        {
+            "comment_id": 2354,
+            "comment_userid": 11735085,
+            "comment_username": "순대(pam7****)",
+            "comment_point": 10,
+            "comment_contents": "나진짜 보기전에는 옛날영화라서 별루잼없겟다ㅎ 했는데 와.요즘영화들보다 더꿀잼임ㅁㅊ"
+        },
+        {
+            "comment_id": 2355,
+            "comment_userid": 10584990,
+            "comment_username": "드와이트트(jyp0****)",
+            "comment_point": 10,
+            "comment_contents": "이게 바로 명작이다 백 번 봐도 백 번 재미있는 영화다."
+        },
+        {
+            "comment_id": 2356,
+            "comment_userid": 12486955,
+            "comment_username": "Dreamcatcher(vkhr****)",
+            "comment_point": 10,
+            "comment_contents": "20세기영화 TOP10에 넉넉히 들어감"
+        },
+        {
+            "comment_id": 2357,
+            "comment_userid": 12446771,
+            "comment_username": "래진(song****)",
+            "comment_point": 10,
+            "comment_contents": "2015년 백퓨데이  좀 지나서 보고  아아 왜 내가 이걸 진작에 안봤을까 하고 후회한 영화.... 아직도 후회중.ㅠㅠ  10점 만점에 100점도 주고 싶다..."
+        },
+        {
+            "comment_id": 2358,
+            "comment_userid": 12275152,
+            "comment_username": "김경선(seoy****)",
+            "comment_point": 10,
+            "comment_contents": "상상하셨던 미래를 구현하지 못해서 죄송합니다 조상님"
+        },
+        {
+            "comment_id": 2359,
+            "comment_userid": 10882496,
+            "comment_username": "조정훈(jung****)",
+            "comment_point": 10,
+            "comment_contents": "언제봐도 즐거움을 주는 영화!"
+        },
+        {
+            "comment_id": 2360,
+            "comment_userid": 11288459,
+            "comment_username": "이브(japo****)",
+            "comment_point": 10,
+            "comment_contents": "이게 85년에 나온거라니.... 최고로 재밌게 본영화입니다"
+        },
+        {
+            "comment_id": 2361,
+            "comment_userid": 9299203,
+            "comment_username": "선남선녀(thdq****)",
+            "comment_point": 10,
+            "comment_contents": "안보면 두고두고 후회 할지도 모르니 어서봐"
+        },
+        {
+            "comment_id": 2362,
+            "comment_userid": 7444638,
+            "comment_username": "영랑호(yrhr****)",
+            "comment_point": 10,
+            "comment_contents": "의리 의리 하는 일베들 제발 명작은 안건드렸으면"
+        },
+        {
+            "comment_id": 2363,
+            "comment_userid": 11595395,
+            "comment_username": "날쌘돌이(saml****)",
+            "comment_point": 10,
+            "comment_contents": "어떻게 2016년SF영화들이 1985년SF영화보다 별로일 수가 있지? 정말이지 'Best'란 단어 이외엔 설명이 불가능하다. 내 인생 아니 내 모든 생애에서 가장 재미있는 영화를 고르라하면 단언컨데 ..."
+        },
+        {
+            "comment_id": 2364,
+            "comment_userid": 10876282,
+            "comment_username": "오얏나무(ldm0****)",
+            "comment_point": 10,
+            "comment_contents": "30년전 영화가 지금 나온 영화보다 더 지금나온 영화같다"
+        },
+        {
+            "comment_id": 2365,
+            "comment_userid": 10633518,
+            "comment_username": "kity(keiy****)",
+            "comment_point": 10,
+            "comment_contents": "100번을 봐도 새로운 영화는 인디애나 존스랑 백투더퓨처 밖에 없다"
+        },
+        {
+            "comment_id": 2366,
+            "comment_userid": 11556432,
+            "comment_username": "spad****",
+            "comment_point": 10,
+            "comment_contents": "만경관에서 2편 보던거 생각난다 80년대는 전세계적으로 경제가 급성장하던시대 대구 동성로도 못지 않았다. 내인생 내젊암 내꿈을. 일깨우는 영화내용과 ost 1편에서 마티아빠가비프 한방날리고 마티엄마에게 손내밀며 흐..."
+        },
+        {
+            "comment_id": 2367,
+            "comment_userid": 10071370,
+            "comment_username": "홍동백서(u_mu****)",
+            "comment_point": 10,
+            "comment_contents": "터미네이터2 스타워즈와 함께 SF 3대 걸작."
+        },
+        {
+            "comment_id": 2368,
+            "comment_userid": 10563144,
+            "comment_username": "레몬(lemo****)",
+            "comment_point": 10,
+            "comment_contents": "진짜재미있어요~~!!!!"
+        },
+        {
+            "comment_id": 2369,
+            "comment_userid": 10689032,
+            "comment_username": "봄봄(yell****)",
+            "comment_point": 7,
+            "comment_contents": "재미있어서 23편도 봤는데 1이 제일 재미있음"
+        },
+        {
+            "comment_id": 2370,
+            "comment_userid": 9535816,
+            "comment_username": "삐돌이777(alex****)",
+            "comment_point": 10,
+            "comment_contents": "왜 10점밖에 없지 이건 15점은 넘게 줘야 정상인데"
+        },
+        {
+            "comment_id": 2371,
+            "comment_userid": 13855785,
+            "comment_username": "nura****",
+            "comment_point": 10,
+            "comment_contents": "123 에 걸쳐 정말 버릴타선이 없는 걸작중에 걸작. 재방송을 좋아하지는 않지만 이영화는 볼때마다 재미가 있다. 반복되는 플롯도 지겹지 않고 흥미롭게 잘 풀어가며 정말 각본가가 천재라고 느껴질만한 대작이다.내 ..."
+        },
+        {
+            "comment_id": 2372,
+            "comment_userid": 12133081,
+            "comment_username": "카스피해(daeh****)",
+            "comment_point": 10,
+            "comment_contents": "중3때 1987년 여름에 대한극장에서 2천5백원 주고 본영화 그이후로 수십번 본거같다 내생애 가장 최고의영화이 영화는 절대 리메이크 안했으면 좋겠다"
+        },
+        {
+            "comment_id": 2373,
+            "comment_userid": 11419842,
+            "comment_username": "얼룩소(lond****)",
+            "comment_point": 10,
+            "comment_contents": "이보다 잘만든 SF영화는 없다"
+        },
+        {
+            "comment_id": 2374,
+            "comment_userid": 10648019,
+            "comment_username": "pilsner77(pils****)",
+            "comment_point": 10,
+            "comment_contents": "오래된영환데 재밌네ㅋㅋ그리고 저시절인데도 리톰슨 되게예쁨"
+        },
+        {
+            "comment_id": 2375,
+            "comment_userid": 10467717,
+            "comment_username": "백서연(seoy****)",
+            "comment_point": 10,
+            "comment_contents": "옛날영화를 스크린으로 보니까 더 좋네요"
+        },
+        {
+            "comment_id": 2376,
+            "comment_userid": 8282613,
+            "comment_username": "55wo****",
+            "comment_point": 10,
+            "comment_contents": "20년도 전에 만든 영화지만 요즘 봐도 재밌다. 엄청난 명작."
+        },
+        {
+            "comment_id": 2377,
+            "comment_userid": 10451251,
+            "comment_username": "키트캐트(yshb****)",
+            "comment_point": 7,
+            "comment_contents": "저 시대에 이런 기발한 상상을 했었다니..정말 뛰어난 감독의 명작이네요"
+        },
+        {
+            "comment_id": 2378,
+            "comment_userid": 10449116,
+            "comment_username": "라부(otnr****)",
+            "comment_point": 10,
+            "comment_contents": "재밋서염 대다나다 짜앙"
+        },
+        {
+            "comment_id": 2379,
+            "comment_userid": 13771191,
+            "comment_username": "tlst****",
+            "comment_point": 10,
+            "comment_contents": "이영화를 이제 처음봤는데 진짜 대박 영화인게 확실하다 감독은 진짜 천재다...87년에 나온 영화인데 지금봐도 촌스럽지가않다니... 진짜 잘만들엇다"
+        },
+        {
+            "comment_id": 2380,
+            "comment_userid": 10466222,
+            "comment_username": "bigm****",
+            "comment_point": 10,
+            "comment_contents": "제 인생 최고의 영화입니다"
+        },
+        {
+            "comment_id": 2381,
+            "comment_userid": 10513800,
+            "comment_username": "이재원(wave****)",
+            "comment_point": 9,
+            "comment_contents": "다시봐도  항상 새로운영화"
+        },
+        {
+            "comment_id": 2382,
+            "comment_userid": 9419351,
+            "comment_username": "llop****",
+            "comment_point": 10,
+            "comment_contents": "왜 이걸 이제 봤을까..."
+        },
+        {
+            "comment_id": 2383,
+            "comment_userid": 15854630,
+            "comment_username": "곤희(sgr2****)",
+            "comment_point": 10,
+            "comment_contents": "우리부모님들도 청춘이 있었겠지...재미있으면서 먼가 아련하다.시간가는줄모르고본 타임슬립명작. 이런영화가 1985년영화라니..."
+        },
+        {
+            "comment_id": 2384,
+            "comment_userid": 11825215,
+            "comment_username": "미화(kkan****)",
+            "comment_point": 10,
+            "comment_contents": "SF영화는 이 영화 전후로 나눌수 있다고 해도 과언이 아니다."
+        },
+        {
+            "comment_id": 2385,
+            "comment_userid": 10495288,
+            "comment_username": "ggan****",
+            "comment_point": 10,
+            "comment_contents": "추억이 새록새록 멋지네요"
+        },
+        {
+            "comment_id": 2386,
+            "comment_userid": 14118098,
+            "comment_username": "1종보통면상(sing****)",
+            "comment_point": 10,
+            "comment_contents": "스티븐스필버그를 뛰어넘는 로버트저메키스의 태양계 최고의 영화! 이건 블루레이 사야돼"
+        },
+        {
+            "comment_id": 2387,
+            "comment_userid": 10474849,
+            "comment_username": "Jworld(dmsd****)",
+            "comment_point": 10,
+            "comment_contents": "명작 중 명작인데 무슨 말이 필요"
+        },
+        {
+            "comment_id": 2388,
+            "comment_userid": 10470816,
+            "comment_username": "그리운비(gree****)",
+            "comment_point": 9,
+            "comment_contents": "아들나이에 봤던 영화. 아들과 함께 재미난 영화 봐서 묘하고 좋았습니다.^^"
+        },
+        {
+            "comment_id": 2389,
+            "comment_userid": 10461167,
+            "comment_username": "best****",
+            "comment_point": 10,
+            "comment_contents": "이 영화와 청소년기를 함께 했던 나. 1편을 극장에서 보게 될 줄이야! 감동! 30년 가까이 지난 지금 영화 속 조지맥플라이와 나를 비교해본다. 지금의 내 아들은 나를 어떻게 느끼고 있을까? 앞으로의 30년은 또 어..."
+        },
+        {
+            "comment_id": 2390,
+            "comment_userid": 10214802,
+            "comment_username": "제이케이(lynx****)",
+            "comment_point": 10,
+            "comment_contents": "방금보고왔다...믿기지않는다 이게 85년작이라니...영화를 만든이가 백투더퓨처한게 아닐까?"
+        },
+        {
+            "comment_id": 2391,
+            "comment_userid": 9439945,
+            "comment_username": "절대반지(rcan****)",
+            "comment_point": 10,
+            "comment_contents": "시대를 아우르고 세대를 아우르는 기발한 상상력"
+        },
+        {
+            "comment_id": 2392,
+            "comment_userid": 9410252,
+            "comment_username": "별(sbch****)",
+            "comment_point": 10,
+            "comment_contents": "12점 드리고싶네요 지금봐도 ㄱㅐ잼 10점밖에 못드려서 죄송.."
+        },
+        {
+            "comment_id": 2393,
+            "comment_userid": 8412688,
+            "comment_username": "푸른불(adiv****)",
+            "comment_point": 9,
+            "comment_contents": "sf 와 코미디적인 요소 모두 다 제대로 보여주는 영화... 이영화로 인해 마이클 제이폭스 인기 엄청 났었지.."
+        },
+        {
+            "comment_id": 2394,
+            "comment_userid": 8215184,
+            "comment_username": "NJoy(n_j_****)",
+            "comment_point": 9,
+            "comment_contents": "최고인 백투더 퓨쳐. 단언컨데"
+        },
+        {
+            "comment_id": 2395,
+            "comment_userid": 10454496,
+            "comment_username": "세체첼(kgm2****)",
+            "comment_point": 10,
+            "comment_contents": "재밌네요ㅋㅋ 추천합니다"
+        },
+        {
+            "comment_id": 2396,
+            "comment_userid": 15904652,
+            "comment_username": "떠나자(love****)",
+            "comment_point": 10,
+            "comment_contents": "33년 전 영화가 하나도 안 촌스럽다!반전 반전 재미 재미! 최고다 정말!"
+        },
+        {
+            "comment_id": 2397,
+            "comment_userid": 10908554,
+            "comment_username": "은징어(gksd****)",
+            "comment_point": 10,
+            "comment_contents": "저시대에 이런영화를 만들 수 있다는것만으로도 대단"
+        },
+        {
+            "comment_id": 2398,
+            "comment_userid": 10779713,
+            "comment_username": "은권(eunk****)",
+            "comment_point": 9,
+            "comment_contents": "깔끔하고 센스있는 영화+자막이 신의 한수"
+        },
+        {
+            "comment_id": 2399,
+            "comment_userid": 10523150,
+            "comment_username": "나는나(apdl****)",
+            "comment_point": 10,
+            "comment_contents": "와 정말 말이 필요없는 명작이다."
+        },
+        {
+            "comment_id": 2400,
+            "comment_userid": 10166174,
+            "comment_username": "메메(acce****)",
+            "comment_point": 10,
+            "comment_contents": "말이 필요 없는 명작이다"
+        },
+        {
+            "comment_id": 22301,
+            "comment_userid": 7715630,
+            "comment_username": "ㅁ(mapl****)",
+            "comment_point": 10,
+            "comment_contents": "11점 주고 싶다"
+        },
+        {
+            "comment_id": 22302,
+            "comment_userid": 7673613,
+            "comment_username": "오늘ㅎr루맑음(khh7****)",
+            "comment_point": 10,
+            "comment_contents": "몇 세기가 지나도 명작인 영화. 몇 번을 봐도 질리지 않는 영화."
+        },
+        {
+            "comment_id": 22303,
+            "comment_userid": 7788880,
+            "comment_username": "네오(road****)",
+            "comment_point": 10,
+            "comment_contents": "설마 이영화가 내나이 한자리수 일때 나왔단 말인가. 내 유소년기를 함깨한 우뢰매보다 한살 적을뿐이란 말인가. 대단한 영화다. 내 유년기 빅3 sf물인액설런트 어드밴쳐 이너 스페이스 그중에서도 최고인 백투더 퓨쳐. ..."
+        },
+        {
+            "comment_id": 22304,
+            "comment_userid": 7662894,
+            "comment_username": "나e쁜놈(jino****)",
+            "comment_point": 10,
+            "comment_contents": "며칠전 트릴로지 다시 봤지만 123편 모두 연결되는시나리오 대단나다ㅋ소재와 스토리도 재밌다! 재밌는 영화다. 2편 배경이 2015년인데 날아다니는 차가 나온다.ㅋㅋㅋㅋ"
+        },
+        {
+            "comment_id": 22305,
+            "comment_userid": 8469448,
+            "comment_username": "jkin****",
+            "comment_point": 10,
+            "comment_contents": "노래고 영화고1980년대 후반~90년대가 전성기였음. 그때가 더 명작많고 가장 명작들 쏟아졌을때임. 그때까지 전세계는 놀라운 발전의 연속이었는데 지금이랑 그때랑 스마트폰 인터넷 빼고는 사실 크게 달라진게 없음. 상상..."
+        },
+        {
+            "comment_id": 22306,
+            "comment_userid": 10449028,
+            "comment_username": "김미경(elle****)",
+            "comment_point": 10,
+            "comment_contents": "명작은 시대를 초월한다"
+        },
+        {
+            "comment_id": 22307,
+            "comment_userid": 8354633,
+            "comment_username": "쥬니(qorc****)",
+            "comment_point": 10,
+            "comment_contents": "85년도 작품이라니 믿어지지가 않는다.. 보는내내 스릴있었고 잼있었다."
+        },
+        {
+            "comment_id": 22308,
+            "comment_userid": 8007735,
+            "comment_username": "삼각지우개(mati****)",
+            "comment_point": 10,
+            "comment_contents": "여러분 2015년까지 2년남았습니다"
+        },
+        {
+            "comment_id": 22309,
+            "comment_userid": 8367934,
+            "comment_username": "블루문(gpwl****)",
+            "comment_point": 10,
+            "comment_contents": "진짜 이건 그시대에 혁신이었다.."
+        },
+        {
+            "comment_id": 22310,
+            "comment_userid": 9109405,
+            "comment_username": "copymachine(copy****)",
+            "comment_point": 10,
+            "comment_contents": "이 영화 만든 사람은 천재라고 밖에 볼 수 없다."
+        },
+        {
+            "comment_id": 22311,
+            "comment_userid": 8467459,
+            "comment_username": "igch****",
+            "comment_point": 10,
+            "comment_contents": "끝났을때 영화관에서 박수받은 영화입니다."
+        },
+        {
+            "comment_id": 22312,
+            "comment_userid": 10465496,
+            "comment_username": "앵라니(sam1****)",
+            "comment_point": 10,
+            "comment_contents": "30년전 딸 10살 아들 8살데리고 봤던 영화. 지난 ㅇㅣㄹ요일 13살 손자데리고 1.2편 다봤습니다. 손자가 재미있다고ㅇㅑ단입니다."
+        },
+        {
+            "comment_id": 22313,
+            "comment_userid": 8163179,
+            "comment_username": "잠만보(tjtm****)",
+            "comment_point": 10,
+            "comment_contents": "진짜 1985년 영화라는게 진짜 말이 안된다.. 이건 T2 다음으로 컬쳐쇼크다..."
+        },
+        {
+            "comment_id": 22314,
+            "comment_userid": 10449566,
+            "comment_username": "Double_K(giga****)",
+            "comment_point": 10,
+            "comment_contents": "이영화를극장에서보게되다니"
+        },
+        {
+            "comment_id": 22315,
+            "comment_userid": 9411571,
+            "comment_username": "은비(koda****)",
+            "comment_point": 10,
+            "comment_contents": "진짜 엄청난 수작이다 이게 85년도 영화라니 요즘 수백억영화보다 훨씬재밌게봣다"
+        },
+        {
+            "comment_id": 22316,
+            "comment_userid": 7665908,
+            "comment_username": "다넬(skyr****)",
+            "comment_point": 10,
+            "comment_contents": "94년생인데요 30년 가까이된 영화가 지금 봐도 재밋네요"
+        },
+        {
+            "comment_id": 22317,
+            "comment_userid": 10458146,
+            "comment_username": "vz(rhrl****)",
+            "comment_point": 10,
+            "comment_contents": "너무재밌어서 보다가울었다"
+        },
+        {
+            "comment_id": 22318,
+            "comment_userid": 9501260,
+            "comment_username": "라이트(ligh****)",
+            "comment_point": 10,
+            "comment_contents": "인터스텔라보다 10000배는 재밋는 영화임~"
+        },
+        {
+            "comment_id": 22319,
+            "comment_userid": 7806625,
+            "comment_username": "Financial Consultant(dwko****)",
+            "comment_point": 10,
+            "comment_contents": "존경하는 로버트저멕키스 감독님의 최고의 작품. 시대를 앞서는 상상력과 기술이 만나 전무후무한 역작을 만들었다. 스티븐 스필버그의 가장 큰 신뢰를 받아온 후배인 그는 진정 천재임이 틀림없다."
+        },
+        {
+            "comment_id": 22320,
+            "comment_userid": 10449165,
+            "comment_username": "leim****",
+            "comment_point": 10,
+            "comment_contents": "오늘 안봤음 평생 두고두고 후회했을듯"
+        },
+        {
+            "comment_id": 22321,
+            "comment_userid": 7795536,
+            "comment_username": "rute****",
+            "comment_point": 10,
+            "comment_contents": "나라면 로또를 외우고 갔겠지"
+        },
+        {
+            "comment_id": 22322,
+            "comment_userid": 10501978,
+            "comment_username": "다미(wdam****)",
+            "comment_point": 8,
+            "comment_contents": "뻔한 결말인데 왜 손에 땀이 나지"
+        },
+        {
+            "comment_id": 22323,
+            "comment_userid": 10460005,
+            "comment_username": "캡틴치킨(capt****)",
+            "comment_point": 9,
+            "comment_contents": "최곱니다..몇번을 봐도언제나 최고"
+        },
+        {
+            "comment_id": 22324,
+            "comment_userid": 7629014,
+            "comment_username": "youn****",
+            "comment_point": 10,
+            "comment_contents": "하고자 하는 의지가있으면 뭐든지 할 수 있어!"
+        },
+        {
+            "comment_id": 22325,
+            "comment_userid": 7055733,
+            "comment_username": "제스(jes9****)",
+            "comment_point": 10,
+            "comment_contents": "스티븐 스필버그는 천재야!"
+        },
+        {
+            "comment_id": 22326,
+            "comment_userid": 10455983,
+            "comment_username": "뿌요(coro****)",
+            "comment_point": 10,
+            "comment_contents": "30주년 기념으로 디지털 리마스터로 재개봉해준덕분에어렸을때 실시간으로 극장에서 보디못했던 작품을 감상할수 있어서 대만족아쉬운 점이라면 파트3편을 상영하지않았던것과상영관에 팜플렛이 적어서 가져오지못했던 점"
+        },
+        {
+            "comment_id": 22327,
+            "comment_userid": 8218150,
+            "comment_username": "mmoo****",
+            "comment_point": 10,
+            "comment_contents": "~~12점 주겠어요~~"
+        },
+        {
+            "comment_id": 22328,
+            "comment_userid": 8368138,
+            "comment_username": "mhth****",
+            "comment_point": 8,
+            "comment_contents": "세밀한 요소가 좋다. 장면 하나마다 개연성 생각을 엄청 해놓은듯."
+        },
+        {
+            "comment_id": 22329,
+            "comment_userid": 10495289,
+            "comment_username": "피아노쌤(jyco****)",
+            "comment_point": 10,
+            "comment_contents": "대박 잼나는 영화입니다 어릴때나 지금이나 강추 강추"
+        },
+        {
+            "comment_id": 22330,
+            "comment_userid": 10457569,
+            "comment_username": "글인(yudo****)",
+            "comment_point": 10,
+            "comment_contents": "참신하고 극적인 스토리전개가 돋보이는 영화였습니다. 남주인공의 낙천적인 성격이 영화를 더욱 즐겁게 이끌어가고 있네요"
+        },
+        {
+            "comment_id": 22331,
+            "comment_userid": 9365445,
+            "comment_username": "alliswell(gord****)",
+            "comment_point": 10,
+            "comment_contents": "완벽한 영화 최고의 영화"
+        },
+        {
+            "comment_id": 22332,
+            "comment_userid": 9473206,
+            "comment_username": "AKB48년(ske4****)",
+            "comment_point": 10,
+            "comment_contents": "정말 소름끼치는 작품 이게 30년전 작품이라는게 믿어지는가?"
+        },
+        {
+            "comment_id": 22333,
+            "comment_userid": 9683001,
+            "comment_username": "ehdr****",
+            "comment_point": 10,
+            "comment_contents": "ebs에서 우연히 봤는데 한 동안 다른 영화 재미없어짐ㅠㅠ내 돈내놔"
+        },
+        {
+            "comment_id": 22334,
+            "comment_userid": 11203217,
+            "comment_username": "두피왕(bus4****)",
+            "comment_point": 10,
+            "comment_contents": "먕불허전 최고다! 이런재미 줄수 있는 영화 안나오나"
+        },
+        {
+            "comment_id": 22335,
+            "comment_userid": 11352712,
+            "comment_username": "케이 리(irh7****)",
+            "comment_point": 10,
+            "comment_contents": "애들이 환장하는 영화 임.작년 30주년때 애들에게 집에서 틀어주니 모두들 환장했음. 애들에게 내가 늬들 나이때 본거라고 말해줬는데 시재다 지나도 이렇게 한결같은 수 있는 영화는 흔하지 않다."
+        },
+        {
+            "comment_id": 22336,
+            "comment_userid": 10447786,
+            "comment_username": "여름별(seon****)",
+            "comment_point": 10,
+            "comment_contents": "드디어 2015년 10월 21일이 되었다~~"
+        },
+        {
+            "comment_id": 22337,
+            "comment_userid": 9421378,
+            "comment_username": "영스(styl****)",
+            "comment_point": 10,
+            "comment_contents": "대박..이게 내가 태어나기도 전 영화라니.. 감탄밖에 안나온다"
+        },
+        {
+            "comment_id": 22338,
+            "comment_userid": 9678789,
+            "comment_username": "펜튼(ajtw****)",
+            "comment_point": 10,
+            "comment_contents": "여태까지 본 오락영화중 손에 꼽는다. 소름이 돋을 정도."
+        },
+        {
+            "comment_id": 22339,
+            "comment_userid": 8756414,
+            "comment_username": "꽃살구이(ojab****)",
+            "comment_point": 10,
+            "comment_contents": "비디오로 30번 블루레이로 10번...  다음 대사를 치고 있는 나.. ㅡㅡ;"
+        },
+        {
+            "comment_id": 22340,
+            "comment_userid": 15326854,
+            "comment_username": "전나현(jeon****)",
+            "comment_point": 10,
+            "comment_contents": "아주 어릴 때 아빠가 보여주셨던 영화아빠가 생전 가장 좋아하시던 영화였습니다.빽튜더퓨처 전도사라고 할 정도로 말입니다.시간이 흘러 어느새 성인이 되버렸는데 함께 보고싶은 아빠가 곁에 없네요.볼 때마다 아빠가 생각나..."
+        },
+        {
+            "comment_id": 22341,
+            "comment_userid": 11097392,
+            "comment_username": "Irelan(jire****)",
+            "comment_point": 10,
+            "comment_contents": "시간이 흘러도 명작!!!"
+        },
+        {
+            "comment_id": 22342,
+            "comment_userid": 10697278,
+            "comment_username": "Kush(ds12****)",
+            "comment_point": 10,
+            "comment_contents": "10점으로 이 영화를 평가할수있다고? 말도안되는 얘기네"
+        },
+        {
+            "comment_id": 22343,
+            "comment_userid": 10481037,
+            "comment_username": "YOON곰(ah48****)",
+            "comment_point": 7,
+            "comment_contents": "그들이 보여주는 2015년같지 않아 어색하지만 보는 재미가 있다"
+        },
+        {
+            "comment_id": 22344,
+            "comment_userid": 11080263,
+            "comment_username": "은루(rose****)",
+            "comment_point": 10,
+            "comment_contents": "지금봐도 너무 재밌다~!"
+        },
+        {
+            "comment_id": 22345,
+            "comment_userid": 9399222,
+            "comment_username": "SB(grea****)",
+            "comment_point": 10,
+            "comment_contents": "명작 지금 봐도 진짜 재미있다"
+        },
+        {
+            "comment_id": 22346,
+            "comment_userid": 7325543,
+            "comment_username": "무후(mooh****)",
+            "comment_point": 10,
+            "comment_contents": "내가태어난해에 개봉한영화라니..이걸이제야 봤다니..."
+        },
+        {
+            "comment_id": 22347,
+            "comment_userid": 8259648,
+            "comment_username": "아는척하지마(kod1****)",
+            "comment_point": 9,
+            "comment_contents": "이걸 모르면 간첩 어렸을때 1편보고 학원 안가고 3편까지 다본 영화"
+        },
+        {
+            "comment_id": 22348,
+            "comment_userid": 12311354,
+            "comment_username": "환기(tekk****)",
+            "comment_point": 10,
+            "comment_contents": "리메이크 안되는 이유가 있다이 이상 못 만들기 떄문이다"
+        },
+        {
+            "comment_id": 22349,
+            "comment_userid": 10714152,
+            "comment_username": "라니(cham****)",
+            "comment_point": 10,
+            "comment_contents": "미쳤다 이건 미친 영화야"
+        },
+        {
+            "comment_id": 22350,
+            "comment_userid": 8215508,
+            "comment_username": "파룽(sjer****)",
+            "comment_point": 9,
+            "comment_contents": "정말 재미있게 봤습니다 ㅋㅋ"
+        },
+        {
+            "comment_id": 22351,
+            "comment_userid": 10495309,
+            "comment_username": "mere****",
+            "comment_point": 8,
+            "comment_contents": "제가 어렸을적 재미나게 보던걸 제아이도 넘 재밌게보니 감회가 새롭네요"
+        },
+        {
+            "comment_id": 22352,
+            "comment_userid": 10545758,
+            "comment_username": "Gamja(pst0****)",
+            "comment_point": 10,
+            "comment_contents": "너무 좋앗어요 정말 다시봐도 명작!!!"
+        },
+        {
+            "comment_id": 22353,
+            "comment_userid": 12377430,
+            "comment_username": "구름바다(nola****)",
+            "comment_point": 10,
+            "comment_contents": "혹시 너무 오래된 영화라고 고민하고 있는 분들..저도 한달 전에 봤는데ㅋㅋ벌써 심심할 때마다 5번은 봤어요. 뭐 이렇게 재밌을 수 있죵"
+        },
+        {
+            "comment_id": 22354,
+            "comment_userid": 11735085,
+            "comment_username": "순대(pam7****)",
+            "comment_point": 10,
+            "comment_contents": "나진짜 보기전에는 옛날영화라서 별루잼없겟다ㅎ 했는데 와.요즘영화들보다 더꿀잼임ㅁㅊ"
+        },
+        {
+            "comment_id": 22355,
+            "comment_userid": 10584990,
+            "comment_username": "드와이트트(jyp0****)",
+            "comment_point": 10,
+            "comment_contents": "이게 바로 명작이다 백 번 봐도 백 번 재미있는 영화다."
+        },
+        {
+            "comment_id": 22356,
+            "comment_userid": 12486955,
+            "comment_username": "Dreamcatcher(vkhr****)",
+            "comment_point": 10,
+            "comment_contents": "20세기영화 TOP10에 넉넉히 들어감"
+        },
+        {
+            "comment_id": 22357,
+            "comment_userid": 12446771,
+            "comment_username": "래진(song****)",
+            "comment_point": 10,
+            "comment_contents": "2015년 백퓨데이  좀 지나서 보고  아아 왜 내가 이걸 진작에 안봤을까 하고 후회한 영화.... 아직도 후회중.ㅠㅠ  10점 만점에 100점도 주고 싶다..."
+        },
+        {
+            "comment_id": 22358,
+            "comment_userid": 12275152,
+            "comment_username": "김경선(seoy****)",
+            "comment_point": 10,
+            "comment_contents": "상상하셨던 미래를 구현하지 못해서 죄송합니다 조상님"
+        },
+        {
+            "comment_id": 22359,
+            "comment_userid": 10882496,
+            "comment_username": "조정훈(jung****)",
+            "comment_point": 10,
+            "comment_contents": "언제봐도 즐거움을 주는 영화!"
+        },
+        {
+            "comment_id": 22360,
+            "comment_userid": 11288459,
+            "comment_username": "이브(japo****)",
+            "comment_point": 10,
+            "comment_contents": "이게 85년에 나온거라니.... 최고로 재밌게 본영화입니다"
+        },
+        {
+            "comment_id": 22361,
+            "comment_userid": 9299203,
+            "comment_username": "선남선녀(thdq****)",
+            "comment_point": 10,
+            "comment_contents": "안보면 두고두고 후회 할지도 모르니 어서봐"
+        },
+        {
+            "comment_id": 22362,
+            "comment_userid": 7444638,
+            "comment_username": "영랑호(yrhr****)",
+            "comment_point": 10,
+            "comment_contents": "의리 의리 하는 일베들 제발 명작은 안건드렸으면"
+        },
+        {
+            "comment_id": 22363,
+            "comment_userid": 11595395,
+            "comment_username": "날쌘돌이(saml****)",
+            "comment_point": 10,
+            "comment_contents": "어떻게 2016년SF영화들이 1985년SF영화보다 별로일 수가 있지? 정말이지 'Best'란 단어 이외엔 설명이 불가능하다. 내 인생 아니 내 모든 생애에서 가장 재미있는 영화를 고르라하면 단언컨데 ..."
+        },
+        {
+            "comment_id": 22364,
+            "comment_userid": 10876282,
+            "comment_username": "오얏나무(ldm0****)",
+            "comment_point": 10,
+            "comment_contents": "30년전 영화가 지금 나온 영화보다 더 지금나온 영화같다"
+        },
+        {
+            "comment_id": 22365,
+            "comment_userid": 10633518,
+            "comment_username": "kity(keiy****)",
+            "comment_point": 10,
+            "comment_contents": "100번을 봐도 새로운 영화는 인디애나 존스랑 백투더퓨처 밖에 없다"
+        },
+        {
+            "comment_id": 22366,
+            "comment_userid": 11556432,
+            "comment_username": "spad****",
+            "comment_point": 10,
+            "comment_contents": "만경관에서 2편 보던거 생각난다 80년대는 전세계적으로 경제가 급성장하던시대 대구 동성로도 못지 않았다. 내인생 내젊암 내꿈을. 일깨우는 영화내용과 ost 1편에서 마티아빠가비프 한방날리고 마티엄마에게 손내밀며 흐..."
+        },
+        {
+            "comment_id": 22367,
+            "comment_userid": 10071370,
+            "comment_username": "홍동백서(u_mu****)",
+            "comment_point": 10,
+            "comment_contents": "터미네이터2 스타워즈와 함께 SF 3대 걸작."
+        },
+        {
+            "comment_id": 22368,
+            "comment_userid": 10563144,
+            "comment_username": "레몬(lemo****)",
+            "comment_point": 10,
+            "comment_contents": "진짜재미있어요~~!!!!"
+        },
+        {
+            "comment_id": 22369,
+            "comment_userid": 10689032,
+            "comment_username": "봄봄(yell****)",
+            "comment_point": 7,
+            "comment_contents": "재미있어서 23편도 봤는데 1이 제일 재미있음"
+        },
+        {
+            "comment_id": 22370,
+            "comment_userid": 9535816,
+            "comment_username": "삐돌이777(alex****)",
+            "comment_point": 10,
+            "comment_contents": "왜 10점밖에 없지 이건 15점은 넘게 줘야 정상인데"
+        },
+        {
+            "comment_id": 22371,
+            "comment_userid": 13855785,
+            "comment_username": "nura****",
+            "comment_point": 10,
+            "comment_contents": "123 에 걸쳐 정말 버릴타선이 없는 걸작중에 걸작. 재방송을 좋아하지는 않지만 이영화는 볼때마다 재미가 있다. 반복되는 플롯도 지겹지 않고 흥미롭게 잘 풀어가며 정말 각본가가 천재라고 느껴질만한 대작이다.내 ..."
+        },
+        {
+            "comment_id": 22372,
+            "comment_userid": 12133081,
+            "comment_username": "카스피해(daeh****)",
+            "comment_point": 10,
+            "comment_contents": "중3때 1987년 여름에 대한극장에서 2천5백원 주고 본영화 그이후로 수십번 본거같다 내생애 가장 최고의영화이 영화는 절대 리메이크 안했으면 좋겠다"
+        },
+        {
+            "comment_id": 22373,
+            "comment_userid": 11419842,
+            "comment_username": "얼룩소(lond****)",
+            "comment_point": 10,
+            "comment_contents": "이보다 잘만든 SF영화는 없다"
+        },
+        {
+            "comment_id": 22374,
+            "comment_userid": 10648019,
+            "comment_username": "pilsner77(pils****)",
+            "comment_point": 10,
+            "comment_contents": "오래된영환데 재밌네ㅋㅋ그리고 저시절인데도 리톰슨 되게예쁨"
+        },
+        {
+            "comment_id": 22375,
+            "comment_userid": 10467717,
+            "comment_username": "백서연(seoy****)",
+            "comment_point": 10,
+            "comment_contents": "옛날영화를 스크린으로 보니까 더 좋네요"
+        },
+        {
+            "comment_id": 22376,
+            "comment_userid": 8282613,
+            "comment_username": "55wo****",
+            "comment_point": 10,
+            "comment_contents": "20년도 전에 만든 영화지만 요즘 봐도 재밌다. 엄청난 명작."
+        },
+        {
+            "comment_id": 22377,
+            "comment_userid": 10451251,
+            "comment_username": "키트캐트(yshb****)",
+            "comment_point": 7,
+            "comment_contents": "저 시대에 이런 기발한 상상을 했었다니..정말 뛰어난 감독의 명작이네요"
+        },
+        {
+            "comment_id": 22378,
+            "comment_userid": 10449116,
+            "comment_username": "라부(otnr****)",
+            "comment_point": 10,
+            "comment_contents": "재밋서염 대다나다 짜앙"
+        },
+        {
+            "comment_id": 22379,
+            "comment_userid": 13771191,
+            "comment_username": "tlst****",
+            "comment_point": 10,
+            "comment_contents": "이영화를 이제 처음봤는데 진짜 대박 영화인게 확실하다 감독은 진짜 천재다...87년에 나온 영화인데 지금봐도 촌스럽지가않다니... 진짜 잘만들엇다"
+        },
+        {
+            "comment_id": 22380,
+            "comment_userid": 10466222,
+            "comment_username": "bigm****",
+            "comment_point": 10,
+            "comment_contents": "제 인생 최고의 영화입니다"
+        },
+        {
+            "comment_id": 22381,
+            "comment_userid": 10513800,
+            "comment_username": "이재원(wave****)",
+            "comment_point": 9,
+            "comment_contents": "다시봐도  항상 새로운영화"
+        },
+        {
+            "comment_id": 22382,
+            "comment_userid": 9419351,
+            "comment_username": "llop****",
+            "comment_point": 10,
+            "comment_contents": "왜 이걸 이제 봤을까..."
+        },
+        {
+            "comment_id": 22383,
+            "comment_userid": 15854630,
+            "comment_username": "곤희(sgr2****)",
+            "comment_point": 10,
+            "comment_contents": "우리부모님들도 청춘이 있었겠지...재미있으면서 먼가 아련하다.시간가는줄모르고본 타임슬립명작. 이런영화가 1985년영화라니..."
+        },
+        {
+            "comment_id": 22384,
+            "comment_userid": 11825215,
+            "comment_username": "미화(kkan****)",
+            "comment_point": 10,
+            "comment_contents": "SF영화는 이 영화 전후로 나눌수 있다고 해도 과언이 아니다."
+        },
+        {
+            "comment_id": 22385,
+            "comment_userid": 10495288,
+            "comment_username": "ggan****",
+            "comment_point": 10,
+            "comment_contents": "추억이 새록새록 멋지네요"
+        },
+        {
+            "comment_id": 22386,
+            "comment_userid": 14118098,
+            "comment_username": "1종보통면상(sing****)",
+            "comment_point": 10,
+            "comment_contents": "스티븐스필버그를 뛰어넘는 로버트저메키스의 태양계 최고의 영화! 이건 블루레이 사야돼"
+        },
+        {
+            "comment_id": 22387,
+            "comment_userid": 10474849,
+            "comment_username": "Jworld(dmsd****)",
+            "comment_point": 10,
+            "comment_contents": "명작 중 명작인데 무슨 말이 필요"
+        },
+        {
+            "comment_id": 22388,
+            "comment_userid": 10470816,
+            "comment_username": "그리운비(gree****)",
+            "comment_point": 9,
+            "comment_contents": "아들나이에 봤던 영화. 아들과 함께 재미난 영화 봐서 묘하고 좋았습니다.^^"
+        },
+        {
+            "comment_id": 22389,
+            "comment_userid": 10461167,
+            "comment_username": "best****",
+            "comment_point": 10,
+            "comment_contents": "이 영화와 청소년기를 함께 했던 나. 1편을 극장에서 보게 될 줄이야! 감동! 30년 가까이 지난 지금 영화 속 조지맥플라이와 나를 비교해본다. 지금의 내 아들은 나를 어떻게 느끼고 있을까? 앞으로의 30년은 또 어..."
+        },
+        {
+            "comment_id": 22390,
+            "comment_userid": 10214802,
+            "comment_username": "제이케이(lynx****)",
+            "comment_point": 10,
+            "comment_contents": "방금보고왔다...믿기지않는다 이게 85년작이라니...영화를 만든이가 백투더퓨처한게 아닐까?"
+        },
+        {
+            "comment_id": 22391,
+            "comment_userid": 9439945,
+            "comment_username": "절대반지(rcan****)",
+            "comment_point": 10,
+            "comment_contents": "시대를 아우르고 세대를 아우르는 기발한 상상력"
+        },
+        {
+            "comment_id": 22392,
+            "comment_userid": 9410252,
+            "comment_username": "별(sbch****)",
+            "comment_point": 10,
+            "comment_contents": "12점 드리고싶네요 지금봐도 ㄱㅐ잼 10점밖에 못드려서 죄송.."
+        },
+        {
+            "comment_id": 22393,
+            "comment_userid": 8412688,
+            "comment_username": "푸른불(adiv****)",
+            "comment_point": 9,
+            "comment_contents": "sf 와 코미디적인 요소 모두 다 제대로 보여주는 영화... 이영화로 인해 마이클 제이폭스 인기 엄청 났었지.."
+        },
+        {
+            "comment_id": 22394,
+            "comment_userid": 8215184,
+            "comment_username": "NJoy(n_j_****)",
+            "comment_point": 9,
+            "comment_contents": "최고인 백투더 퓨쳐. 단언컨데"
+        },
+        {
+            "comment_id": 22395,
+            "comment_userid": 10454496,
+            "comment_username": "세체첼(kgm2****)",
+            "comment_point": 10,
+            "comment_contents": "재밌네요ㅋㅋ 추천합니다"
+        },
+        {
+            "comment_id": 22396,
+            "comment_userid": 15904652,
+            "comment_username": "떠나자(love****)",
+            "comment_point": 10,
+            "comment_contents": "33년 전 영화가 하나도 안 촌스럽다!반전 반전 재미 재미! 최고다 정말!"
+        },
+        {
+            "comment_id": 22397,
+            "comment_userid": 10908554,
+            "comment_username": "은징어(gksd****)",
+            "comment_point": 10,
+            "comment_contents": "저시대에 이런영화를 만들 수 있다는것만으로도 대단"
+        },
+        {
+            "comment_id": 22398,
+            "comment_userid": 10779713,
+            "comment_username": "은권(eunk****)",
+            "comment_point": 9,
+            "comment_contents": "깔끔하고 센스있는 영화+자막이 신의 한수"
+        },
+        {
+            "comment_id": 22399,
+            "comment_userid": 10523150,
+            "comment_username": "나는나(apdl****)",
+            "comment_point": 10,
+            "comment_contents": "와 정말 말이 필요없는 명작이다."
+        },
+        {
+            "comment_id": 22400,
+            "comment_userid": 10166174,
+            "comment_username": "메메(acce****)",
+            "comment_point": 10,
+            "comment_contents": "말이 필요 없는 명작이다"
+        }
+    ],
+    "gender": [
+        {
+            "gender_man": 45
+        }
+    ],
+    "point": [
+        {
+            "point_dir": 24,
+            "point_act": 18,
+            "point_sto": 28,
+            "point_vis": 15,
+            "point_ost": 14
+        }
+    ]
+}

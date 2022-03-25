@@ -1,8 +1,10 @@
+from urllib import response
 from django.db import models
+from django_db_views.db_view import DBView
 
 # Create your models here.
 class MAge(models.Model):
-    movie = models.OneToOneField('MMovie', models.DO_NOTHING, primary_key=True)
+    movie = models.ForeignKey('MMovie', on_delete=models.CASCADE, related_name='age', primary_key=True)
     age_view10 = models.IntegerField()
     age_view20 = models.IntegerField()
     age_view30 = models.IntegerField()
@@ -20,7 +22,8 @@ class MAge(models.Model):
 
 
 class MCast(models.Model):
-    movie = models.ForeignKey('MMovie', models.DO_NOTHING)
+    cast_id = models.IntegerField(primary_key=True)
+    movie = models.ForeignKey('MMovie', on_delete=models.CASCADE, related_name='cast')
     cast_actor = models.CharField(max_length=45)
     cast_cast = models.CharField(max_length=45, blank=True, null=True)
 
@@ -30,7 +33,8 @@ class MCast(models.Model):
 
 
 class MComment(models.Model):
-    movie = models.ForeignKey('MMovie', models.DO_NOTHING)
+    comment_id = models.IntegerField(primary_key=True)
+    movie = models.ForeignKey('MMovie', on_delete=models.CASCADE, related_name='comment')
     comment_userid = models.IntegerField(db_column='comment_userId')  # Field name made lowercase.
     comment_username = models.CharField(db_column='comment_userName', max_length=45)  # Field name made lowercase.
     comment_point = models.IntegerField()
@@ -42,7 +46,7 @@ class MComment(models.Model):
 
 
 class MGender(models.Model):
-    movie = models.OneToOneField('MMovie', models.DO_NOTHING, primary_key=True)
+    movie = models.ForeignKey('MMovie', on_delete=models.CASCADE, related_name='gender', primary_key=True)
     gender_man = models.IntegerField()
 
     class Meta:
@@ -72,7 +76,7 @@ class MMovie(models.Model):
 
 
 class MPoint(models.Model):
-    movie = models.OneToOneField(MMovie, models.DO_NOTHING, primary_key=True)
+    movie = models.ForeignKey('MMovie', on_delete=models.CASCADE, related_name='point', primary_key=True)
     point_dir = models.IntegerField()
     point_act = models.IntegerField()
     point_sto = models.IntegerField()
@@ -82,3 +86,14 @@ class MPoint(models.Model):
     class Meta:
         managed = False
         db_table = 'm_point'
+
+class Mitem(models.Model):
+    item_id = models.IntegerField(primary_key=True)
+    movie = models.ForeignKey('MMovie', on_delete=models.CASCADE, related_name='item')
+    user_id = models.IntegerField()
+    comment_point = models.IntegerField()
+    movie_genre = models.IntegerField()
+
+    class Meta:
+        managed = False
+        db_table = 'm_item'
